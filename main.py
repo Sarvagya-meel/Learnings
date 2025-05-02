@@ -1,13 +1,20 @@
 from dotenv import load_dotenv
 import os
-
+from openai import OpenAI
 # Load environment variables from a .env file
 load_dotenv()
 
 # Example: Access an environment variable
-my_var = os.getenv("OPENAI_API_KEY")
+openAI_key = os.getenv("OPENAI_API_KEY")
 
-if my_var is None:
-    print("Environment variable not found.")
+client = OpenAI(api_key=openAI_key)
 
-print("Hello, World!"+ str(my_var))
+completion = client.chat.completions.create(
+  model="gpt-4o-mini",
+  store=True,
+  messages=[
+    {"role": "user", "content": "write a haiku about ai"}
+  ]
+)
+
+print(completion.choices[0].message)
