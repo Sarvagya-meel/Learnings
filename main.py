@@ -1,7 +1,13 @@
-import numpy 
+from dotenv import load_dotenv
+import os
 
-def main():
-    print("Hello, World!")
+# Load environment variables from a .env file
+load_dotenv()
 
-if __name__ == "__main__":
-    main()
+# Example: Access an environment variable
+my_var = os.getenv("OPENAI_API_KEY")
+
+if my_var is None:
+    print("Environment variable not found.")
+
+print("Hello, World!"+ str(my_var))
