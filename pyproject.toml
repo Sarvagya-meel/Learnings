@@ -10,9 +10,12 @@ requires-python = ">=3.11,<3.14"
 dependencies = [
     "python-dotenv >=1.1.0,<2.0.0",
     "requests >=2.32.3,<3.0.0",
-    "autogen >=0.9,<0.10"
+    "autogen >=0.9,<0.10",
+    "ag2[openai] (>=0.9,<0.10)",
+    "openai (>=1.77.0,<2.0.0)"
 ]
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+package-mode = false
