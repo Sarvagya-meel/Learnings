@@ -1,0 +1,18 @@
+20 mins teams meeting regarding Group Life Insurance Consultation.
+6 Speakers, 5 Roles , 3 Meeting Participants
+
+Speaker:    SpokenDuration:     Group1:     SpeakerName:    LLM Identified
+spk_0:      50.13 seconds:      System_2:   Sam:            No
+spk_1:      273.41 seconds:     System_1:   Priya:          Yes
+spk_2:      280.93 seconds:     System_1:   Alex:           Yes
+spk_3:      23.11 seconds:      System_2:   Linda:          Yes
+spk_4:      17.11 seconds:      System_3:   Mike:           No
+spk_5:      15.54 seconds:      System_3:   Mike:           Yes
+
+Insights
+1.)Able to Identify all the six speakers in the meeting(spk_0 to spk_5)
+2.)speaker_0's name was not identified as sam
+3.)speaker_4 and speaker 5 is both Mike, so it was able to identify different speakers and gave speaker_4 as unknown and speaker5 as mike
+4.)Alex is named as Alexa
+5.)Numbers spoken in meeting seems accurate.
+

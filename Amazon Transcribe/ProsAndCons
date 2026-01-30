@@ -1,0 +1,73 @@
+TestJob6.vtt (Amazon Transcribe)
+Pros
+Output Type: Batch: StartTranscriptionJob/   Streaming: StartStreamTranscription, StartStreamTranscriptionWebSocket
+Speaker Labels: More conversational, includes greetings and context (e.g., "good afternoon, Saria. Welcome to our branch.").
+Natural Language: Captures filler words ("uh", "um"), making it closer to real speech.
+Simple Numbering: Uses sequential numbers for each caption, making it easy to follow.
+Short Segments: Breaks dialogue into shorter, more readable lines.
+Cons
+No Speaker Names: Does not explicitly label who is speaking.
+Filler Words: Includes many filler words, which may reduce readability for some use cases.
+Less Structured: Lacks unique IDs or metadata for each segment.
+Potential Typos: Some lines are incomplete or have minor errors (e.g., "N" at the end).
+
+
+
+Feature	                    TestJob6.vtt Only	TestJob6.json Added
+Speaker Labels	                No	            Yes (via processing)
+Word-Level Timestamps	        No	            Yes
+Confidence Scores	            No          	Yes
+Machine Readable	            Limited	        Yes
+Customization	                Low	            High
+Direct Usability	            Yes         	No (needs conversion)
+
+
+MS_Teams_Transcript.vtt (Microsoft Teams)
+Pros
+Unique IDs: Each caption block has a unique identifier, useful for referencing or syncing.
+Speaker Names: Sometimes includes names in the dialogue, though not as explicit as a dedicated speaker label.
+More Polished: Fewer filler words, more concise and formal language.
+Consistent Formatting: Segments are longer and often combine related sentences, which can improve context.
+Cons
+Longer Segments: Some captions are long, which may be harder to read quickly.
+No Explicit Speaker Labels: Like Amazon, does not use a dedicated speaker label field.
+Less Conversational: Feels more edited, which may lose some nuances of natural speech.
+Formatting: Uses comma-separated numbers in currency (e.g., ₹1,00,000), which may not be standard everywhere.
+
+
+
+Summary Table
+Feature	                    TestJob6.vtt (Amazon)	MS_Teams_Transcript.vtt (Teams)
+Speaker Labels	                     No	                    No
+Filler Words	                     Yes	                Few/No
+Unique IDs per Caption	             No	                    Yes
+Segment Length	                     Short	                Longer
+Naturalness	                         High	                Medium
+Readability	                         Medium	               High
+Metadata	                         No	                    Yes
+
+
+Post call Analytics:
+    1. Specific Language/Auto Detection
+    2. General Model / Custom Language Model
+    3. PII Detection/ Redaction
+    4. Vocabulary Filtering/Training
+    5. summarization
+    6. categorization(cancellation, new service, feedback etc) to classify the call
+    7. max of 4 hours of audio length or 2GB file size.
+
+
+
+
+Issues and Recommendations:
+1. Speaker Identification:
+    - Speakers are identified but associating them with speaker actual name can be challenging.
+
+2. Aws Retention Policy:
+    - AWS Transcribe has a retention policy of 90 days for transcription data. After this period, the data is automatically deleted from AWS servers. This means that if you need to access your transcriptions after 90 days, you will need to download and store them locally or in another storage solution before they are deleted.
+
+3. Amazon Transcribe can differentiate between a maximum of 30 unique speakers and labels the text from each unique speaker with a unique value (spk_0 through spk_9).
+
+4. Amazon Transcribe is in learning phase and it retain s s transcripts for a period of 90 days to improve the quality of the service. If you have any concerns about your data being stored, you can contact AWS support to request that your data be deleted immediately after the transcription job is complete.
+
+5. First identification is wrong
