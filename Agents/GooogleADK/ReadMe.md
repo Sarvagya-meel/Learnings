@@ -7,14 +7,15 @@ ADK makes switching between models seamless through its integration with the Lit
 * Cost: Different models have varying price points.
 * Capabilities: Models offer diverse features, context window sizes, and fine-tuning options.
 * Availability/Redundancy: Having alternatives ensures your application remains functional even if one provider experiences issues.
-## How to run?
-- It is designed to be run directly with commands like adk web (for a web UI), adk run (for CLI interaction), or adk api_server (to expose an API)
-- To activate the Poetry-managed virtual environment manually from Command Prompt:
 
+## 📦 How to run the agent?
+
+- To run an agent with adk agent debugger, the main file must only be named agent.py (limitation from sdk as of now).
+- Create a ``__init__.py`` with content sas below:
     ```
-    venv\Scripts\activate
+    from . import agent
     ```
-- Using the terminal, navigate to the parent directory of your agent project (e.g. using cd ..):
+- Using the terminal, navigate to the parent directory of your agent project (e.g., using `cd ..`):
     ```
     parent_folder/      <-- navigate to this directory
         multi_tool_agent/
@@ -22,6 +23,7 @@ ADK makes switching between models seamless through its integration with the Lit
             agent.py
             .env
     ```
+- It is designed to be run directly with commands like adk web (for a web UI), adk run (for CLI interaction), or adk api_server (to expose an API)
 - Run the following command to launch the dev UI:
     ```
     adk web
@@ -53,3 +55,18 @@ ADK makes switching between models seamless through its integration with the Lit
    * To manage conversations and execute the agent, we need two more components:
      * SessionService: Responsible for managing conversation history and state for different users and sessions. The InMemorySessionService is a simple implementation that stores everything in memory, suitable for testing and simple applications. It keeps track of the messages exchanged. We'll explore state persistence more in Step 4.
      * Runner: The engine that orchestrates the interaction flow. It takes user input, routes it to the appropriate agent, manages calls to the LLM and tools based on the agent's logic, handles session updates via the SessionService, and yields events representing the progress of the interaction.
+4. Interact with the Agent
+   * We need a way to send messages to our agent and receive its responses. Since LLM calls and tool executions can take time, ADK's Runner operates asynchronously.
+   * We'll define an async helper function (call_agent_async) that:
+     * Take a user query string. 
+     * Package it into the ADK Content format. 
+     * Calls runner.run_async, providing the user/session context and the new message. 
+     * Iterates through the Events yielded by the runner. Events represent steps in the agent's execution (e.g., tool call requested, a tool result received, intermediate LLM thought, final response). 
+     * Identifies and prints the final response event using event.is_final_response(). 
+   * Why async? Interactions with LLMs and potential tools (like external APIs) are I/O-bound operations. Using asyncio allows the program to handle these operations efficiently without blocking execution.
+5. Run the Conversation
+   * Finally, let's test our setup by sending a few queries to the agent. We wrap our async calls in a main async function and run it using await. 
+   * Watch the output:
+     * See the user queries. 
+     * Notice the --- Tool: get_weather called... --- logs when the agent uses the tool. 
+     * Observe the agent's final responses, including how it handles the case where weather data isn't available (for Paris).
