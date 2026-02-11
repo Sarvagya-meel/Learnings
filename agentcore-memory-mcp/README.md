@@ -1,3 +1,23 @@
+```bash
+pip install bedrock-agentcore-starter-toolkit
+source .venv/bin/activate
+
+cd agentcore-memory-mcp 
+agentcore configure -e mcp_server.py --protocol MCP
+agentcore launch
+agentcore deploy 
+
+```
+```
+ Agent Details:                                                                                                                                                          │
+│ Agent Name: agentcore_memory_mcp                                                                                                                                        │
+│ Agent ARN: arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agentcore_memory_mcp-oaRQGq3VQf                                                                     │
+│ Deployment Type: Direct Code Deploy 
+| endpoint_arn = "arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agentcore_memory_mcp-oaRQGq3VQf/runtime-endpoint/DEFAULT"
+
+
+
+``` 
 # AgentCore Memory MCP Server
 
 A Model Context Protocol (MCP) server that provides memory retrieval capabilities for AgentCore memory stores. This server exposes memory functionality as MCP tools that can be used by AI assistants and other MCP clients.

@@ -83,7 +83,7 @@ def add_sample_event(
         logger.info(f"Adding sample memory for actor: {actor_id}, session: {session_id}")
         
         # Initialize memory client
-        memory_client = MemoryClient()
+        memory_client = MemoryClient(region_name="us-east-1")
         
         # Create a memory event with the sample content
         messages_to_store = [

@@ -43,7 +43,7 @@ def create_memory():
     logger.info("Creating memory with name: %s", MEMORY_NAME)
 
     try:
-        memory_client = MemoryClient()
+        memory_client = MemoryClient(region_name="us-east-1")
 
         memory = memory_client.create_memory_and_wait(
             name=MEMORY_NAME,

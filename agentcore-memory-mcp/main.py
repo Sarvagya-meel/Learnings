@@ -1,9 +1,10 @@
 import logging
-
+from pathlib import Path
 from mcp.server.fastmcp import FastMCP
 from bedrock_agentcore.memory import MemoryClient
-from memory import MemoryConfig, retrieve_memories_for_actor
+from memory import MemoryConfig, retrieve_memories_for_actor, MemoryManager
 
+memory_manager = MemoryManager()
 # Configure logging
 logging.basicConfig(
     level=logging.INFO,
@@ -14,10 +15,9 @@ logger = logging.getLogger(__name__)
 # Global constants
 ACTOR_ID = "my-user-id"
 
-mcp = FastMCP("AgentCore Memory MCP")
-
+mcp = FastMCP("AgentCore-Memory-Server", host="0.0.0.0", port=8000, stateless_http=True)
 # Initialize memory components
-memory_config = MemoryConfig()
+memory_config = MemoryConfig(config_path="memory-config.json")
 memory_client = MemoryClient()
 
 @mcp.tool()
@@ -79,5 +79,19 @@ def retrieve_memory(
         
         return f"❌ Error retrieving memories: {str(e)}"
 
+@mcp.tool()
+def store_interaction(user_msg: str = "User's message", assistant_msg: str="Agent's response", actor_id= ACTOR_ID, session_id="DEFAULT") -> str:
+    """Saves a turn of conversation between agents to AgentCore."""
+    try:
+        memory_manager.store_conversation(
+            user_input=user_msg,
+            response=assistant_msg,
+            actor_id=actor_id,
+            session_id=session_id
+        )
+
+        return "✅ Interaction stored in AgentCore Memory."
+    except Exception as e:
+        return f"❌ Error: {str(e)}"
 
 mcp.run()
