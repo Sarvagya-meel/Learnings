@@ -16,7 +16,6 @@ from typing import Any, Dict, List, Optional, Union
 from bedrock_agentcore_starter_toolkit.cli.memory.commands import status
 from pydantic import BaseModel, Field, ConfigDict
 from pygments.lexers import data
-
 # 1. Base Types
 RequestId = Union[str, int, None]
 

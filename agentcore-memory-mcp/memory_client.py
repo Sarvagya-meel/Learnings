@@ -16,8 +16,8 @@ async def run_memory_query():
         env=None
     )
 
-    # print("Connecting to AgentCore Memory MCP Server...")
-
+    print("Connecting to AgentCore Memory MCP Server...", server_params)
+    query = "user preferences about food"
     # 2. Establish the transport and session
     async with stdio_client(server_params) as (read, write):
         async with ClientSession(read, write) as session:
@@ -25,11 +25,11 @@ async def run_memory_query():
             await session.initialize()
 
             # 3. Call the 'retrieve_memory' tool
-            print("Querying memory for: 'user preferences'...")
+            print(f"Client Querying memory for: {query}")
             result = await session.call_tool(
                 "retrieve_memory",
                 arguments={
-                    "query": "user preferences about food",
+                    "query": query,
                     "max_results": 2
                 }
             )
@@ -37,7 +37,7 @@ async def run_memory_query():
             # 4. Handle and print the response
             if result.content:
                 for item in result.content:
-                    print(f"\n--- Memory Found ---\n{item.text}")
+                    print(f"\n--- Clint Memory Found ---\n{item.text}")
             else:
                 print("No relevant memories found.")
 
