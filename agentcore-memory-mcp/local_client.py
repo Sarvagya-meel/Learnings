@@ -123,11 +123,15 @@ def print_tools(result, green=True):
 
     for i, tool in enumerate(result.get("tools", []), start=1):
         name = tool.get("name")
+        description = tool.get("description")
         input_schema = tool.get("inputSchema")
         output_schema = tool.get("outputSchema")
 
         header = f"\n=== Tool {i}: {name} ==="
         print(f"{color_on}{header}{color_off}")
+
+        description = "Tool Description:\n" + pformat(description, width=100, sort_dicts=False)
+        print(f"{color_on}{description}{color_off}")
 
         ins = "Tool inputSchema:\n" + pformat(input_schema, width=100, sort_dicts=False)
         print(f"{color_on}{ins}{color_off}")
@@ -148,15 +152,15 @@ if __name__ == "__main__":
     # endpoint = os.environ["MCP_ENDPOINT"]
     endpoint = "http://127.0.0.1:8001/mcp"
 
-    # print("\nListing tools...")
-    # result = list_tools(endpoint)
-    # print_tools(result)
-    #
-    # print("\nCalling tool: server_info...")
-    # result = call_tool(endpoint, "server_info",
-    #                    {"actor_id": actor_id,
-    #                     "session_id": session_id})
-    # print_resposne(result)
+    print("\nListing tools...")
+    result = list_tools(endpoint)
+    print_tools(result)
+
+    print("\nCalling tool: server_info...")
+    result = call_tool(endpoint, "server_info",
+                       {"actor_id": actor_id,
+                        "session_id": session_id})
+    print_resposne(result)
     #
     # print("\nCalling tool: retrieve_memory...")
     # result = call_tool(endpoint,
@@ -187,12 +191,12 @@ if __name__ == "__main__":
     #                     "session_id": session_id})
     # print_resposne(result)
 
-    print("\nCalling tool: retrieve_memory...")
-    result = call_tool(endpoint,
-                       "retrieve_memory",
-                       {"query":"what are same dance preferences?",
-                        "max_results": 5,
-                        "actor_id": actor_id,
-                        "session_id": session_id})
-    print_resposne(result)
+    # print("\nCalling tool: retrieve_memory...")
+    # result = call_tool(endpoint,
+    #                    "retrieve_memory",
+    #                    {"query":"what are same dance preferences?",
+    #                     "max_results": 5,
+    #                     "actor_id": actor_id,
+    #                     "session_id": session_id})
+    # print_resposne(result)
 
