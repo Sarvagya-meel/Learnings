@@ -33,7 +33,7 @@ logger = logging.getLogger("mcp.memory.server")
 # -------- Config
 MCP_HOST = os.getenv("MCP_HOST", "127.0.0.1")
 MCP_PORT = int(os.getenv("MCP_PORT", "8001"))
-ACTOR_ID_ENV = os.getenv("AGENTCORE_ACTOR_ID", "my-user-id")
+ACTOR_ID_ENV = os.getenv("AGENTCORE_ACTOR_ID", "default_mcp")
 MEMORY_CONFIG_PATH = os.getenv("MEMORY_CONFIG_PATH", "../config/memory-config.json")
 
 # Initialize
@@ -42,7 +42,6 @@ memory_client = MemoryClient(region_name="us-east-1")
 memory_manager = MemoryManager(
     memory_config=memory_config,
     memory_client=memory_client,
-    default_actor_id=ACTOR_ID_ENV,
 )
 
 # Preflight: verify we can touch memory (won’t crash container later)
@@ -71,188 +70,187 @@ def _server_info_payload() -> Dict[str, Any]:
 logger.info("Server starting: %s", json.dumps(_server_info_payload(), default=str))
 
 @mcp.tool()
-def server_info() -> ToolResponse:
+def server_info(session_id:str) -> ToolResponse:
     tool = "server_info"
     try:
-        return ToolResponse.ok(tool, "Server info.", data={"server": _server_info_payload()}, meta=_base_meta(), status=200)
+        return ToolResponse.ok(tool, "Server info.", data={"server": _server_info_payload()}, meta=_base_meta(session_id=session_id), status=200)
     except Exception as e:
         logger.error("server_info failed", exc_info=True)
-        return ToolResponse.err(tool, "Failed to collect server info.", code="INTERNAL", status=500, details={"exception_type": type(e).__name__}, meta=_base_meta())
+        return ToolResponse.err(tool, "Failed to collect server info.", code="INTERNAL", status=500, details={"exception_type": type(e).__name__}, meta=_base_meta(session_id=session_id))
 
 
 def _base_meta(**kwargs: Any) -> Dict[str, Any]:
     meta = {
         "memory_id": memory_config.memory_id,
-        "default_actor_id": ACTOR_ID_ENV,
     }
     meta.update({k: v for k, v in kwargs.items() if v is not None})
     return meta
 
 
-# @mcp.tool()
-# def retrieve_memory(query: str, max_results: int = 10, actor_id: str = ACTOR_ID_ENV) -> ToolResponse:
-#     tool = "retrieve_memory"
-#     if not isinstance(query, str) or not query.strip():
-#         return ToolResponse.err(
-#             tool,
-#             "Invalid input: 'query' must be a non-empty string.",
-#             code="VALIDATION_ERROR",
-#             status=400,
-#             # meta=_base_meta(actor_id=actor_id, max_results=max_results),
-#         )
-#
-#     if not isinstance(max_results, int) or max_results <= 0 or max_results > 100:
-#         return ToolResponse.err(
-#             tool,
-#             "Invalid input: 'max_results' must be an int (1..100).",
-#             code="VALIDATION_ERROR",
-#             status=400,
-#             # meta=_base_meta(actor_id=actor_id, query=query, max_results=max_results),
-#         )
-#
-#     try:
-#         results = retrieve_memories_for_actor(
-#             memory_id=memory_config.memory_id,
-#             actor_id=actor_id,
-#             search_query=query.strip(),
-#             memory_client=memory_client,
-#             max_results=max_results,
-#         ) or []
-#
-#         # items: List[Dict[str, Any]] = []
-#         # for m in results:
-#         #     content = m.get("content", m.get("text", ""))
-#         #     items.append(
-#         #         {
-#         #             "content": content,
-#         #             "metadata": m.get("metadata", {}),
-#         #             "raw": m,
-#         #         }
-#         #     )
-#
-#
-#         formatted_output = []
-#         for i, entry in enumerate(results, 1):
-#             # 1. Safe Extraction with default fallbacks to avoid 'None'
-#             content_obj = entry.get("content") or {}
-#             raw_text = content_obj.get("text") or "No content available"
-#             strategy = entry.get("memoryStrategyId") or "GeneralStore"
-#
-#             # 2. Try to parse nested JSON if the text is a JSON string
-#             display_text = raw_text
-#             if raw_text.strip().startswith("{"):
-#                 try:
-#                     parsed_json = json.loads(raw_text)
-#                     # Prioritize 'context' or 'preference' fields if they exist
-#                     display_text = parsed_json.get("context") or parsed_json.get("preference") or raw_text
-#                 except json.JSONDecodeError:
-#                     pass  # Keep as raw text if not valid JSON
-#
-#             # 3. Clean up XML-style tags if present (e.g., <topic>)
-#             if "<topic" in display_text:
-#                 display_text = display_text.replace("<topic name=", "Topic: ").replace("</topic>", "").replace('">',
-#                                                                                                                " - ")
-#
-#             # 4. Handle Metadata Safely (Ensure it's never None)
-#             metadata = entry.get("metadata") or {}
-#             score = entry.get("score", 0.0)
-#
-#             # 5. Build the final string block
-#             record = (
-#                 f"Memory #{i} [{strategy}]\n"
-#                 f"Content: {display_text.strip()}\n"
-#                 f"Relevance: {score:.4f}"
-#             )
-#             print(i, record)
-#             formatted_output.append(record)
-#
-#         # Final safety check: Join with double newline for readability
-#         data = "\n\n".join(formatted_output)
-#         message = "No memories found." if not data else "Memories retrieved."
-#         return ok(
-#             tool,
-#             message,
-#             data={"items": formatted_output},
-#             meta=_base_meta(actor_id=actor_id, query=query, max_results=max_results, count=len(formatted_output)),
-#             status=200,
-#         )
-#
-#     except Exception as e:
-#         code, status, details = classify_exception(e)
-#         logger.error("retrieve_memory failed", exc_info=True, extra={"code": code, "status": status})
-#         return err(
-#             tool,
-#             "Failed to retrieve memory.",
-#             code=code,
-#             status=status,
-#             details=details,
-#             meta=_base_meta(actor_id=actor_id, query=query, max_results=max_results),
-#         )
-#
-#
-# @mcp.tool()
-# def store_interaction(
-#     user_msg: str,
-#     assistant_msg: str,
-#     actor_id: str = ACTOR_ID_ENV,
-#     session_id: Optional[str] = None,
-# ) ->ToolResponse:
-#     tool = "store_interaction"
-#
-#     if not isinstance(user_msg, str) or not user_msg.strip():
-#         return err(
-#             tool,
-#             "Invalid input: 'user_msg' is required.",
-#             code="VALIDATION_ERROR",
-#             status=400,
-#             meta=_base_meta(actor_id=actor_id, session_id=session_id),
-#         )
-#
-#     if not isinstance(assistant_msg, str) or not assistant_msg.strip():
-#         return err(
-#             tool,
-#             "Invalid input: 'assistant_msg' is required.",
-#             code="VALIDATION_ERROR",
-#             status=400,
-#             meta=_base_meta(actor_id=actor_id, session_id=session_id),
-#         )
-#
-#     try:
-#         ok_flag = memory_manager.store_conversation(
-#             user_input=user_msg,
-#             response=assistant_msg,
-#             actor_id=actor_id,
-#             session_id=session_id or memory_config.default_session_id,
-#         )
-#
-#         if not ok_flag:
-#             return err(
-#                 tool,
-#                 "Store failed: store_conversation returned False.",
-#                 code="STORE_FAILED",
-#                 status=502,
-#                 meta=_base_meta(actor_id=actor_id, session_id=session_id or memory_config.default_session_id),
-#             )
-#
-#         return ok(
-#             tool,
-#             "Stored interaction.",
-#             data={"stored": True},
-#             meta=_base_meta(actor_id=actor_id, session_id=session_id or memory_config.default_session_id),
-#             status=200,
-#         )
-#
-#     except Exception as e:
-#         code, status, details = classify_exception(e)
-#         logger.error("store_interaction failed", exc_info=True, extra={"code": code, "status": status})
-#         return err(
-#             tool,
-#             "Failed to store interaction.",
-#             code=code,
-#             status=status,
-#             details=details,
-#             meta=_base_meta(actor_id=actor_id, session_id=session_id),
-#         )
+@mcp.tool()
+def retrieve_memory(query: str, max_results: int = 10,
+                    actor_id: str = ACTOR_ID_ENV,
+                    session_id: Optional[str] = None
+                    ) -> ToolResponse:
+    tool = "retrieve_memory"
+    if not isinstance(query, str) or not query.strip():
+        return ToolResponse.err(
+            tool,
+            "Invalid input: 'query' must be a non-empty string.",
+            code="VALIDATION_ERROR",
+            status=400,
+            meta=_base_meta(actor_id=actor_id, max_results=max_results,session_id=session_id),
+        )
+
+    if not isinstance(max_results, int) or max_results <= 0 or max_results > 100:
+        return ToolResponse.err(
+            tool,
+            "Invalid input: 'max_results' must be an int (1..100).",
+            code="VALIDATION_ERROR",
+            status=400,
+            meta=_base_meta(actor_id=actor_id, query=query, max_results=max_results,session_id=session_id),
+        )
+
+    try:
+        results = retrieve_memories_for_actor(
+            memory_id=memory_config.memory_id,
+            actor_id=actor_id,
+            search_query=query.strip(),
+            memory_client=memory_client,
+            max_results=max_results,
+        ) or []
+
+        formatted_output = []
+        for i, entry in enumerate(results, 1):
+            # 1. Safe Extraction with default fallbacks to avoid 'None'
+            content_obj = entry.get("content") or {}
+            raw_text = content_obj.get("text") or "No content available"
+            strategy = entry.get("memoryStrategyId") or "GeneralStore"
+
+            # 2. Try to parse nested JSON if the text is a JSON string
+            display_text = raw_text
+            if raw_text.strip().startswith("{"):
+                try:
+                    parsed_json = json.loads(raw_text)
+                    # Prioritize 'context' or 'preference' fields if they exist
+                    display_text = parsed_json.get("context") or parsed_json.get("preference") or raw_text
+                except json.JSONDecodeError:
+                    pass  # Keep as raw text if not valid JSON
+
+            # 3. Clean up XML-style tags if present (e.g., <topic>)
+            if "<topic" in display_text:
+                display_text = display_text.replace("<topic name=", "Topic: ").replace("</topic>", "").replace('">',
+                                                                                                               " - ")
+
+            # 4. Handle Metadata Safely (Ensure it's never None)
+            metadata = entry.get("metadata") or {}
+            score = entry.get("score", 0.0)
+
+            # 5. Build the final string block
+            # record = (
+            #     f"Memory #{i} [{strategy}]\n"
+            #     f"Content: {display_text.strip()}\n"
+            #     f"Relevance: {score:.4f}"
+            # )
+            record_obj = {
+                "memory_index": i,
+                "strategy": strategy,
+                "content": display_text.strip(),
+                "relevance": round(float(score), 6),
+            }
+            formatted_output.append(record_obj)
+            # print(i, record)
+            # formatted_output.append(record)
+        # data = "\n\n".join(formatted_output)
+        json_payload = {"memories": formatted_output}
+        data = json.dumps(json_payload, ensure_ascii=False, indent=2)
+        # Final safety check: Join with double newline for readability
+
+        message = "No memories found." if not data else "Memories retrieved."
+        return ToolResponse.ok(
+            tool,
+            message,
+            data={"items": formatted_output},
+            meta=_base_meta(actor_id=actor_id, query=query, max_results=max_results, count=len(formatted_output),session_id=session_id),
+            status=200,
+        )
+
+    except Exception as e:
+        code, status, details = classify_exception(e)
+        logger.error("retrieve_memory failed", exc_info=True, extra={"code": code, "status": status})
+        return ToolResponse.err(
+            tool,
+            "Failed to retrieve memory.",
+            code=code,
+            status=status,
+            details=details,
+            meta=_base_meta(actor_id=actor_id, query=query, max_results=max_results,session_id=session_id),
+        )
+
+
+@mcp.tool()
+def store_interaction(
+    user_msg: str,
+    assistant_msg: str,
+    actor_id: str = ACTOR_ID_ENV,
+    session_id: Optional[str] = None,
+) ->ToolResponse:
+    tool = "store_interaction"
+
+    if not isinstance(user_msg, str) or not user_msg.strip():
+        return ToolResponse.err(
+            tool,
+            "Invalid input: 'user_msg' is required.",
+            code="VALIDATION_ERROR",
+            status=400,
+            meta=_base_meta(actor_id=actor_id, session_id=session_id),
+        )
+
+    if not isinstance(assistant_msg, str) or not assistant_msg.strip():
+        return ToolResponse.err(
+            tool,
+            "Invalid input: 'assistant_msg' is required.",
+            code="VALIDATION_ERROR",
+            status=400,
+            meta=_base_meta(actor_id=actor_id, session_id=session_id),
+        )
+
+    try:
+        ok_flag = memory_manager.store_conversation(
+            user_input=user_msg,
+            response=assistant_msg,
+            actor_id=actor_id,
+            session_id=session_id or memory_config.default_session_id,
+        )
+
+        if not ok_flag:
+            return ToolResponse.err(
+                tool,
+                "Store failed: store_conversation returned False.",
+                code="STORE_FAILED",
+                status=502,
+                meta=_base_meta(actor_id=actor_id, session_id=session_id or memory_config.default_session_id),
+            )
+
+        return ToolResponse.ok(
+            tool,
+            "Stored interaction.",
+            data={"stored": True},
+            meta=_base_meta(actor_id=actor_id, session_id=session_id or memory_config.default_session_id),
+            status=200,
+        )
+
+    except Exception as e:
+        code, status, details = classify_exception(e)
+        logger.error("store_interaction failed", exc_info=True, extra={"code": code, "status": status})
+        return ToolResponse.err(
+            tool,
+            "Failed to store interaction.",
+            code=code,
+            status=status,
+            details=details,
+            meta=_base_meta(actor_id=actor_id, session_id=session_id),
+        )
 
 if __name__ == "__main__":
     mcp.run(transport="streamable-http")
