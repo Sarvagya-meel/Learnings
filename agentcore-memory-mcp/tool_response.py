@@ -15,7 +15,7 @@ from typing import Any, Dict, List, Optional, Union
 
 from bedrock_agentcore_starter_toolkit.cli.memory.commands import status
 from pydantic import BaseModel, Field, ConfigDict
-
+from pygments.lexers import data
 
 # 1. Base Types
 RequestId = Union[str, int, None]
@@ -38,6 +38,7 @@ class ToolResponse(BaseModel):
     result: MCPResult= Field(default_factory=MCPResult)
     status: int = 200
     message: str = ""
+    session_id: str = ""
     tool_name: str
 
     @classmethod
@@ -45,10 +46,10 @@ class ToolResponse(BaseModel):
         cls,
         tool_name: str,
         message: str,
+        status: int = 200,
         request_id: RequestId = None,
         data: Optional[Dict[str, Any]] = None,
         meta: Optional[Dict[str, Any]] = None,
-        status: int = 200,
     ) -> ToolResponse:
         """
         Creates a successful JSON-RPC response.
@@ -76,16 +77,20 @@ class ToolResponse(BaseModel):
         cls,
         tool_name: str,
         message: str,
-        request_id: RequestId = None,
         status: int = 500,
+        request_id: RequestId = None,
+        details: Optional[Dict[str, Any]] = None,
+        meta: Optional[Dict[str, Any]] = None,
         code: str = "INTERNAL",
-        details: Optional[Dict[str, Any]] = None
     ) -> ToolResponse:
         """Creates a failure JSON-RPC response."""
         payload = {
-            "code": code,
-            "message": message,
-            "details": details or {},
+            "data": {
+                "code": code,
+                "message": message,
+                "details": details or {},
+            },
+            "metadata": meta or {}  # Critical: ensures 'object' type
         }
         return cls(
             id=request_id,
