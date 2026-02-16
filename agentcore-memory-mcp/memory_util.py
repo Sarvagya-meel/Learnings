@@ -52,7 +52,7 @@ class MemoryConfig:
 
         return MemoryConfig(
             memory_id=memory_id,
-            default_session_id= "DEFAULT",
+            default_session_id= "default_memory_util",
         )
 
 
@@ -82,6 +82,7 @@ class MemoryManager:
     ):
         self.logger = logger or _log()
         self.config = memory_config or MemoryConfig.from_file_or_env()
+        print(f"Memory config gg: {self.config}")
         self.default_actor_id = default_actor_id
         self.default_session_id = default_session_id
         self.max_conversation_turns = max_conversation_turns
@@ -132,9 +133,6 @@ class MemoryManager:
         if not user_input or not response:
             self.logger.warning("Missing user_input or response; skip store")
             return False
-
-        actor_id = actor_id or self.default_actor_id
-        session_id = session_id or self.default_session_id
         ts = int(time.time())
         turn_id = str(uuid.uuid4())
 
@@ -149,8 +147,9 @@ class MemoryManager:
                     actor_id=actor_id,
                     session_id=session_id,
                     messages=messages,
-                    metadata=metadata or {"turn_id": turn_id, "ts": ts},
+                    # metadata=metadata or {"turn_id": turn_id, "ts": ts},
                 )
+                self.logger.info("Successfully stored conversation in memory")
                 return True
             except Exception as e:
                 self.logger.warning("create_event failed; will fallback", exc_info=True)
