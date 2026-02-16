@@ -71,6 +71,15 @@ logger.info("Server starting: %s", json.dumps(_server_info_payload(), default=st
 
 @mcp.tool()
 def server_info(session_id:str) -> ToolResponse:
+    """Return MCP server runtime details (health/debug).
+
+        Inputs:
+          - session_id: Correlation id for tracing.
+
+        Returns:
+          ToolResponse with JSON in result.content[0].text:
+            {"data": {"server": {...}}, "metadata": {...}}
+        """
     tool = "server_info"
     try:
         return ToolResponse.ok(tool, "Server info.", data={"server": _server_info_payload()}, meta=_base_meta(session_id=session_id), status=200)
@@ -92,6 +101,19 @@ def retrieve_memory(query: str, max_results: int = 10,
                     actor_id: str = ACTOR_ID_ENV,
                     session_id: Optional[str] = None
                     ) -> ToolResponse:
+    """
+       Retrieve long-term memory records for an actor.
+
+       Inputs:
+         - query: Semantic search string
+         - max_results: 1..100
+         - actor_id: Actor to search within
+         - session_id: Optional session identifier (for tracing/metadata)
+
+       Returns:
+         ToolResponse where result.content[0].text is JSON:
+           {"data": {...}, "metadata": {...}}
+       """
     tool = "retrieve_memory"
     if not isinstance(query, str) or not query.strip():
         return ToolResponse.err(
@@ -195,6 +217,18 @@ def store_interaction(
     actor_id: str = ACTOR_ID_ENV,
     session_id: Optional[str] = None,
 ) ->ToolResponse:
+    """Persist a user/assistant turn into AgentCore Memory.
+
+        Inputs:
+          - user_msg: End-user text (required)
+          - assistant_msg: Assistant text (required)
+          - actor_id: Actor identifier (defaults from env)
+          - session_id: Session identifier (defaults from config)
+
+        Returns:
+          ToolResponse with JSON in result.content[0].text:
+            {"data": {"stored": true/false}, "metadata": {...}}
+        """
     tool = "store_interaction"
 
     if not isinstance(user_msg, str) or not user_msg.strip():
