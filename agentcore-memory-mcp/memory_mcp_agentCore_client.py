@@ -169,8 +169,8 @@ if __name__ == "__main__":
     # 1. Configuration
     RUNTIME_ARN = "arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agencore_memory_mcp_server-O4cxzOEPwc"
     REGION = "us-east-1"
-    ACCESS_KEY = "AKIAZUOSPPKGPLC74BGP"
-    SECRET_KEY = "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"
+    # ACCESS_KEY = "AKIAZUOSPPKGPLC74BGP"
+    # SECRET_KEY = "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"
     # 2. Correct Endpoint Construction
     # Path: /runtimes/{EncodedArn}/invocations?qualifier=DEFAULT (for MCP)
     encoded_arn = quote(RUNTIME_ARN, safe='')
