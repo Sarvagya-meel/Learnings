@@ -12,7 +12,7 @@ from typing import Any, Dict, List, Optional
 from mcp.server.fastmcp import FastMCP
 from bedrock_agentcore.memory import MemoryClient
 
-from memory_util import MemoryConfig, MemoryManager, retrieve_memories_for_actor
+from memory_mcp_util import MemoryConfig, MemoryManager, retrieve_memories_for_actor
 from tool_response import classify_exception, ToolResponse
 import json
 from typing import Any, Dict
@@ -31,7 +31,7 @@ logging.basicConfig(
 logger = logging.getLogger("mcp.memory.server")
 
 # -------- Config
-MCP_HOST = os.getenv("MCP_HOST", "127.0.0.1")
+MCP_HOST = os.getenv("MCP_HOST", "0.0.0.0")#"127.0.0.1"
 MCP_PORT = int(os.getenv("MCP_PORT", "8001"))
 ACTOR_ID_ENV = os.getenv("AGENTCORE_ACTOR_ID", "default_mcp")
 MEMORY_CONFIG_PATH = os.getenv("MEMORY_CONFIG_PATH", "../config/memory-config.json")
@@ -58,7 +58,8 @@ except Exception:
     logger.warning("Startup memory check failed; server will still start", exc_info=True)
 
 # MCP Server
-mcp = FastMCP("agentcore_memory_mcp", host=MCP_HOST, port=MCP_PORT, stateless_http=True)
+mcp = FastMCP("agentcore_memory_mcp", host=MCP_HOST, stateless_http=True)
+# mcp = FastMCP("agentcore_memory_mcp", host=MCP_HOST, port=MCP_PORT, stateless_http=True)
 def _server_info_payload() -> Dict[str, Any]:
     return collect_server_info(
         mcp_host=MCP_HOST,
