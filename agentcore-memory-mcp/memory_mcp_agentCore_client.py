@@ -15,9 +15,13 @@ from botocore.session import get_session
 from botocore.auth import SigV4Auth
 from botocore.awsrequest import AWSRequest
 from urllib.parse import quote
+
+from dotenv import load_dotenv
+
 GREEN = "\033[32m"
 RED = "\033[31m"
 RESET = "\033[0m"
+
 
 import inspect
 from mcp.server.fastmcp.server import FastMCP
@@ -169,8 +173,12 @@ if __name__ == "__main__":
     # 1. Configuration
     RUNTIME_ARN = "arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agencore_memory_mcp_server-O4cxzOEPwc"
     REGION = "us-east-1"
-    # ACCESS_KEY = "AKIAZUOSPPKGPLC74BGP"
-    # SECRET_KEY = "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"
+    import os
+
+    # Load environment variables from a .env file
+    load_dotenv()
+    ACCESS_KEY = os.getenv("AGENTCORE_ACCESS_KEY")
+    SECRET_KEY = os.getenv("AGENTCORE_SECRET_KEY")
     # 2. Correct Endpoint Construction
     # Path: /runtimes/{EncodedArn}/invocations?qualifier=DEFAULT (for MCP)
     encoded_arn = quote(RUNTIME_ARN, safe='')
