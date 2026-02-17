@@ -1,13 +1,18 @@
+Deploy gets your code + dependencies into the AgentCore runtime (creates/updates a revision).
+Launch activates that deployed revision so the /invocations endpoint can actually serve traffi
 ```bash
 pip install bedrock-agentcore-starter-toolkit
 source .venv/bin/activate
-
 cd agentcore-memory-mcp 
-agentcore configure -e mcp_server.py --protocol MCP
-agentcore launch
+agentcore configure -e memory_mcp_server.py --protocol MCP
 agentcore deploy 
+agentcore launch
 
 ```
+```bash
+npx @modelcontextprotocol/inspector
+```
+
 ```
  Agent Details:                                                                                                                                                          │
 │ Agent Name: agentcore_memory_mcp                                                                                                                                        │
