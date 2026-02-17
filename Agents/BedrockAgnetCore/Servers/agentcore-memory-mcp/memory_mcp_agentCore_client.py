@@ -171,7 +171,7 @@ def call_tool(url: str, name: str, arguments: Optional[Dict[str, Any]] = None) -
 
 if __name__ == "__main__":
     # 1. Configuration
-    RUNTIME_ARN = "arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agencore_memory_mcp_server-O4cxzOEPwc"
+    RUNTIME_ARN = "arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agentcore_memory_mcp_server-R4jmV6ERZD"
     REGION = "us-east-1"
     import os
 
