@@ -1,0 +1,8 @@
+mcp
+fastmcp
+bedrock-agentcore
+boto3
+google-genai
+langchain[google-genai]
+pydantic
+Pillow

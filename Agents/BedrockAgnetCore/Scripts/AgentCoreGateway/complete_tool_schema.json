@@ -1,0 +1,87 @@
+{
+  "toolSpec": {
+    "name": "DefaultTool",
+    "description": "Default tool that returns a greeting message from Lambda",
+    "inputSchema": {
+      "json": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    "outputSchema": {
+      "json": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "description": "HTTP status code of the response",
+            "example": 200
+          },
+          "body": {
+            "type": "string",
+            "description": "JSON string containing the tool result",
+            "example": "{\"toolName\":\"DefaultTool\",\"toolResult\":{\"content\":[{\"text\":\"Hello, from hello lambda tool:>)\"}]}}"
+          }
+        },
+        "required": ["statusCode", "body"]
+      }
+    },
+    "parsedOutputSchema": {
+      "json": {
+        "type": "object",
+        "description": "Parsed structure of the body field",
+        "properties": {
+          "toolName": {
+            "type": "string",
+            "description": "Name of the tool that was invoked",
+            "example": "DefaultTool"
+          },
+          "toolResult": {
+            "type": "object",
+            "description": "Result object containing the tool's output",
+            "properties": {
+              "content": {
+                "type": "array",
+                "description": "Array of content items returned by the tool",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "text": {
+                      "type": "string",
+                      "description": "Text content of the response",
+                      "example": "Hello, from hello lambda tool:>)"
+                    }
+                  },
+                  "required": ["text"]
+                }
+              }
+            },
+            "required": ["content"]
+          }
+        },
+        "required": ["toolName", "toolResult"]
+      }
+    }
+  },
+  "lambdaConfig": {
+    "arn": "arn:aws:lambda:us-east-1:662403250828:function:hello_lambda_tool",
+    "region": "us-east-1",
+    "accountId": "662403250828",
+    "functionName": "hello_lambda_tool"
+  },
+  "exampleResponse": {
+    "statusCode": 200,
+    "body": "{\"toolName\":\"DefaultTool\",\"toolResult\":{\"content\":[{\"text\":\"Hello, from hello lambda tool:>)\"}]}}"
+  },
+  "exampleParsedResponse": {
+    "toolName": "DefaultTool",
+    "toolResult": {
+      "content": [
+        {
+          "text": "Hello, from hello lambda tool:>)"
+        }
+      ]
+    }
+  }
+}

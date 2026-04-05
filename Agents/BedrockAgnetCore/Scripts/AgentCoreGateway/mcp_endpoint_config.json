@@ -1,0 +1,104 @@
+{
+  "targetName": "memory-mcp-server",
+  "targetType": "MCP_SERVER",
+  "description": "AgentCore Memory MCP Server for storing and retrieving conversation context",
+  "endpoint": {
+    "url": "https://bedrock-agentcore.us-east-1.amazonaws.com/runtimes/arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agentcore_memory_mcp_server-R4jmV6ERZD/runtime-endpoint/DEFAULT/invocations",
+    "protocol": "MCP",
+    "protocolVersion": "2025-06-18"
+  },
+  "authentication": {
+    "type": "AWS_SIGV4",
+    "service": "bedrock-agentcore",
+    "region": "us-east-1"
+  },
+  "resourceArn": "arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agentcore_memory_mcp_server-R4jmV6ERZD",
+  "tools": [
+    {
+      "name": "retrieve_memory",
+      "description": "Retrieve long-term memory records for an actor",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "Semantic search string"
+          },
+          "max_results": {
+            "type": "integer",
+            "description": "Number of results (1-100)",
+            "default": 10,
+            "minimum": 1,
+            "maximum": 100
+          },
+          "actor_id": {
+            "type": "string",
+            "description": "Actor to search within"
+          },
+          "session_id": {
+            "type": "string",
+            "description": "Optional session identifier for tracing"
+          }
+        },
+        "required": ["query", "actor_id"]
+      }
+    },
+    {
+      "name": "store_interaction",
+      "description": "Persist a user/assistant turn into AgentCore Memory",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "user_msg": {
+            "type": "string",
+            "description": "End-user text (required)"
+          },
+          "assistant_msg": {
+            "type": "string",
+            "description": "Assistant text (required)"
+          },
+          "actor_id": {
+            "type": "string",
+            "description": "Actor identifier (defaults from env)"
+          },
+          "session_id": {
+            "type": "string",
+            "description": "Session identifier (defaults from config)"
+          }
+        },
+        "required": ["user_msg", "assistant_msg", "actor_id"]
+      }
+    },
+    {
+      "name": "server_info",
+      "description": "Return MCP server runtime details (health/debug)",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "session_id": {
+            "type": "string",
+            "description": "Correlation id for tracing"
+          }
+        },
+        "required": ["session_id"]
+      }
+    }
+  ],
+  "metadata": {
+    "serverArn": "arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agentcore_memory_mcp_server-R4jmV6ERZD",
+    "serverId": "agentcore_memory_mcp_server-R4jmV6ERZD",
+    "accountId": "662403250828",
+    "region": "us-east-1",
+    "deploymentType": "direct_code_deploy",
+    "runtimeType": "PYTHON_3_13",
+    "memoryId": "MyAgentMemory20260211160131-gMGdB67nD0",
+    "serverProtocol": "MCP",
+    "networkMode": "PUBLIC"
+  },
+  "tags": {
+    "Environment": "production",
+    "Service": "memory",
+    "Protocol": "MCP",
+    "ManagedBy": "agentcore"
+  }
+}

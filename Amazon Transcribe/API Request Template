@@ -1,0 +1,25 @@
+{
+    "CallAnalyticsJobName": "test2",
+    "Media": {
+        "MediaFileUri": "s3://ampf-poc-s3-bucket2/recordings/Test Meeting 1-20250917_160713-Meeting Recording.mp4"
+    },
+    "Settings": {
+        "LanguageOptions": [
+            "en-US"
+        ],
+        "Summarization": {
+            "GenerateAbstractiveSummary": true
+        }
+    },
+    "ChannelDefinitions": [
+        {
+            "ChannelId": 1,
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "ChannelId": 0,
+            "ParticipantRole": "CUSTOMER"
+        }
+    ],
+    "DataAccessRoleArn": "arn:aws:iam::662403250828:role/service-role/AmazonTranscribeServiceRole-MyTranscribeRole2"
+}

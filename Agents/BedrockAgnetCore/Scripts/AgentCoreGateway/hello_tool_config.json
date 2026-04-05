@@ -1,0 +1,55 @@
+{
+  "toolSpec": {
+    "name": "DefaultTool",
+    "description": "Default tool that returns a greeting message from Lambda",
+    "inputSchema": {
+      "json": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      }
+    },
+    "outputSchema": {
+      "json": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "description": "HTTP status code of the response"
+          },
+          "body": {
+            "type": "string",
+            "description": "JSON string containing the tool result"
+          },
+          "toolResult": {
+            "type": "object",
+            "description": "Parsed tool result object",
+            "properties": {
+              "toolName": {
+                "type": "string",
+                "description": "Name of the tool that was invoked"
+              },
+              "content": {
+                "type": "array",
+                "description": "Array of content items returned by the tool",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "text": {
+                      "type": "string",
+                      "description": "Text content of the response"
+                    }
+                  },
+                  "required": ["text"]
+                }
+              }
+            },
+            "required": ["content"]
+          }
+        },
+        "required": ["statusCode", "body"]
+      }
+    }
+  },
+  "lambdaArn": "arn:aws:lambda:us-east-1:662403250828:function:hello_lambda_tool"
+}

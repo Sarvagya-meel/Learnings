@@ -1,0 +1,19 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowAgentCoreGatewayInvoke",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "bedrock-agentcore.amazonaws.com"
+      },
+      "Action": "lambda:InvokeFunction",
+      "Resource": "arn:aws:lambda:us-east-1:662403250828:function:hello_lambda_tool",
+      "Condition": {
+        "StringEquals": {
+          "aws:SourceAccount": "662403250828"
+        }
+      }
+    }
+  ]
+}

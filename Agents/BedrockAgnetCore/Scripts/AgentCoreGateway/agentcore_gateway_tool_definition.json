@@ -1,0 +1,48 @@
+{
+  "tools": [
+    {
+      "name": "DefaultTool",
+      "description": "Default tool that returns a greeting message from Lambda",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": []
+      },
+      "outputSchema": {
+        "type": "object",
+        "properties": {
+          "statusCode": {
+            "type": "integer",
+            "description": "HTTP status code of the response"
+          },
+          "body": {
+            "type": "string",
+            "description": "JSON string containing toolName and toolResult"
+          }
+        },
+        "required": ["statusCode", "body"]
+      },
+      "target": {
+        "type": "lambda",
+        "arn": "arn:aws:lambda:us-east-1:662403250828:function:hello_lambda_tool"
+      }
+    }
+  ],
+  "responseFormat": {
+    "description": "The Lambda returns a response with statusCode and body. The body is a JSON string that contains:",
+    "structure": {
+      "toolName": "string - Name of the invoked tool",
+      "toolResult": {
+        "content": [
+          {
+            "text": "string - The actual response message"
+          }
+        ]
+      }
+    },
+    "example": {
+      "statusCode": 200,
+      "body": "{\"toolName\":\"DefaultTool\",\"toolResult\":{\"content\":[{\"text\":\"Hello, from hello lambda tool:>)\"}]}}"
+    }
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "gateway": {
+    "name": "agentcore-gateway",
+    "region": "us-east-1",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "name": "memory",
+      "arn": "arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agentcore_memory_mcp_server-R4jmV6ERZD",
+      "description": "AgentCore Memory MCP Server for storing and retrieving conversation context",
+      "tags": ["memory", "storage", "context"],
+      "tools": [
+        "retrieve_memory",
+        "store_interaction",
+        "server_info"
+      ]
+    }
+  ],
+  "routing": {
+    "default_timeout": 30.0,
+    "retry_attempts": 3,
+    "retry_delay": 1.0
+  },
+  "authentication": {
+    "method": "sigv4",
+    "service": "bedrock-agentcore"
+  }
+}

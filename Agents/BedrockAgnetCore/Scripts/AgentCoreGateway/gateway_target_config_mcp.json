@@ -1,0 +1,8 @@
+{
+  "name": "memory-mcp-gateway",
+  "targetConfiguration": {
+    "mcp": {
+      "mcpServerArn": "arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agentcore_memory_mcp_server-R4jmV6ERZD"
+    }
+  }
+}

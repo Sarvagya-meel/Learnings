@@ -1,0 +1,4568 @@
+{
+    "JobStatus": "COMPLETED",
+    "LanguageCode": "en-US",
+    "Transcript": [
+        {
+            "LoudnessScores": [
+                88.14,
+                87.71,
+                86.15,
+                86.54,
+                86.64,
+                34.83
+            ],
+            "Content": "Thank you for calling Anchor Credit Union, the number one choice for captains worldwide, how can I help you?",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Thank",
+                    "BeginOffsetMillis": 40,
+                    "EndOffsetMillis": 330
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 330,
+                    "EndOffsetMillis": 440
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "for",
+                    "BeginOffsetMillis": 440,
+                    "EndOffsetMillis": 520
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "calling",
+                    "BeginOffsetMillis": 520,
+                    "EndOffsetMillis": 860
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.2993,
+                    "Content": "Anchor",
+                    "BeginOffsetMillis": 860,
+                    "EndOffsetMillis": 1170
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Credit",
+                    "BeginOffsetMillis": 1170,
+                    "EndOffsetMillis": 1480
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Union",
+                    "BeginOffsetMillis": 1480,
+                    "EndOffsetMillis": 1810
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9872,
+                    "Content": "the",
+                    "BeginOffsetMillis": 1810,
+                    "EndOffsetMillis": 1900
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "number",
+                    "BeginOffsetMillis": 1900,
+                    "EndOffsetMillis": 2160
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "one",
+                    "BeginOffsetMillis": 2160,
+                    "EndOffsetMillis": 2330
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "choice",
+                    "BeginOffsetMillis": 2330,
+                    "EndOffsetMillis": 2620
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.8812,
+                    "Content": "for",
+                    "BeginOffsetMillis": 2620,
+                    "EndOffsetMillis": 2730
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.5919,
+                    "Content": "captains",
+                    "BeginOffsetMillis": 2730,
+                    "EndOffsetMillis": 3220
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9772,
+                    "Content": "worldwide",
+                    "BeginOffsetMillis": 3220,
+                    "EndOffsetMillis": 3950
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "how",
+                    "BeginOffsetMillis": 3950,
+                    "EndOffsetMillis": 4110
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "can",
+                    "BeginOffsetMillis": 4110,
+                    "EndOffsetMillis": 4260
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I",
+                    "BeginOffsetMillis": 4260,
+                    "EndOffsetMillis": 4320
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "help",
+                    "BeginOffsetMillis": 4320,
+                    "EndOffsetMillis": 4610
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 4610,
+                    "EndOffsetMillis": 5050
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "28e2b43d-8f32-42d7-a89e-ec53a6e22f12",
+            "BeginOffsetMillis": 40,
+            "EndOffsetMillis": 5050,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                88.04,
+                89.25,
+                88.81,
+                86.81,
+                84.4
+            ],
+            "Content": "Hi um Okay so I was at fisherman's terminal.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9931,
+                    "Content": "Hi",
+                    "BeginOffsetMillis": 6310,
+                    "EndOffsetMillis": 6930
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9469,
+                    "Content": "um",
+                    "BeginOffsetMillis": 6930,
+                    "EndOffsetMillis": 7460
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.728,
+                    "Content": "Okay",
+                    "BeginOffsetMillis": 7840,
+                    "EndOffsetMillis": 8140
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "so",
+                    "BeginOffsetMillis": 8140,
+                    "EndOffsetMillis": 8490
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I",
+                    "BeginOffsetMillis": 8490,
+                    "EndOffsetMillis": 8750
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "was",
+                    "BeginOffsetMillis": 8750,
+                    "EndOffsetMillis": 8930
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "at",
+                    "BeginOffsetMillis": 8930,
+                    "EndOffsetMillis": 9080
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9939,
+                    "Content": "fisherman's",
+                    "BeginOffsetMillis": 9080,
+                    "EndOffsetMillis": 9680
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "terminal",
+                    "BeginOffsetMillis": 9680,
+                    "EndOffsetMillis": 10450
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "29b72233-e8f3-4a69-bafc-e47c3c00e2ff",
+            "BeginOffsetMillis": 6310,
+            "EndOffsetMillis": 10450,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                61.39,
+                77.04,
+                69.51,
+                84.19,
+                84.55
+            ],
+            "Content": "Yeah. Mhm.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.3963,
+                    "Content": "Yeah",
+                    "BeginOffsetMillis": 7940,
+                    "EndOffsetMillis": 8150
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9188,
+                    "Content": "Mhm",
+                    "BeginOffsetMillis": 10740,
+                    "EndOffsetMillis": 11380
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "4251379c-59a2-4163-b6df-a9143c2bbf49",
+            "BeginOffsetMillis": 7940,
+            "EndOffsetMillis": 11380,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                85.57,
+                87.48,
+                85.65,
+                80.92,
+                85.41,
+                87.61,
+                83.61,
+                84.11,
+                84.94,
+                83.41
+            ],
+            "Content": "I'm trying to dock up my ship and my card fell into the water so I'm hoping to get it replaced.",
+            "IssuesDetected": [
+                {
+                    "CharacterOffsets": {
+                        "Begin": 0,
+                        "End": 95
+                    }
+                }
+            ],
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.7459,
+                    "Content": "I'm",
+                    "BeginOffsetMillis": 11040,
+                    "EndOffsetMillis": 11320
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "trying",
+                    "BeginOffsetMillis": 11330,
+                    "EndOffsetMillis": 12140
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "to",
+                    "BeginOffsetMillis": 12140,
+                    "EndOffsetMillis": 12330
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9103,
+                    "Content": "dock",
+                    "BeginOffsetMillis": 12330,
+                    "EndOffsetMillis": 12620
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "up",
+                    "BeginOffsetMillis": 12620,
+                    "EndOffsetMillis": 12790
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "my",
+                    "BeginOffsetMillis": 12790,
+                    "EndOffsetMillis": 13520
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9929,
+                    "Content": "ship",
+                    "BeginOffsetMillis": 13530,
+                    "EndOffsetMillis": 14160
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "and",
+                    "BeginOffsetMillis": 15440,
+                    "EndOffsetMillis": 15770
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "my",
+                    "BeginOffsetMillis": 15770,
+                    "EndOffsetMillis": 15950
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.971,
+                    "Content": "card",
+                    "BeginOffsetMillis": 15950,
+                    "EndOffsetMillis": 16320
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "fell",
+                    "BeginOffsetMillis": 16320,
+                    "EndOffsetMillis": 16730
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "into",
+                    "BeginOffsetMillis": 16740,
+                    "EndOffsetMillis": 17020
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "the",
+                    "BeginOffsetMillis": 17020,
+                    "EndOffsetMillis": 17120
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "water",
+                    "BeginOffsetMillis": 17120,
+                    "EndOffsetMillis": 17560
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "so",
+                    "BeginOffsetMillis": 18740,
+                    "EndOffsetMillis": 19100
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I'm",
+                    "BeginOffsetMillis": 19100,
+                    "EndOffsetMillis": 19610
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "hoping",
+                    "BeginOffsetMillis": 19620,
+                    "EndOffsetMillis": 19940
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "to",
+                    "BeginOffsetMillis": 19940,
+                    "EndOffsetMillis": 20070
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "get",
+                    "BeginOffsetMillis": 20070,
+                    "EndOffsetMillis": 20200
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "it",
+                    "BeginOffsetMillis": 20200,
+                    "EndOffsetMillis": 20280
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "replaced",
+                    "BeginOffsetMillis": 20280,
+                    "EndOffsetMillis": 20860
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "e521a003-c632-4861-98fb-497a7a87088e",
+            "BeginOffsetMillis": 11040,
+            "EndOffsetMillis": 20860,
+            "Sentiment": "NEGATIVE",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                85.56,
+                86.31,
+                67.64,
+                50.08,
+                87.87,
+                86.79,
+                88.29,
+                null,
+                null,
+                88.82
+            ],
+            "Content": "Uh Not a problem. Let's see if we can get that taken care of you. Uh What's your name?",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9408,
+                    "Content": "Uh",
+                    "BeginOffsetMillis": 18740,
+                    "EndOffsetMillis": 19360
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Not",
+                    "BeginOffsetMillis": 22540,
+                    "EndOffsetMillis": 22810
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "a",
+                    "BeginOffsetMillis": 22810,
+                    "EndOffsetMillis": 22860
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "problem",
+                    "BeginOffsetMillis": 22860,
+                    "EndOffsetMillis": 23130
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9551,
+                    "Content": "Let's",
+                    "BeginOffsetMillis": 23130,
+                    "EndOffsetMillis": 23290
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "see",
+                    "BeginOffsetMillis": 23290,
+                    "EndOffsetMillis": 23400
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "if",
+                    "BeginOffsetMillis": 23400,
+                    "EndOffsetMillis": 23510
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "we",
+                    "BeginOffsetMillis": 23510,
+                    "EndOffsetMillis": 23600
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "can",
+                    "BeginOffsetMillis": 23600,
+                    "EndOffsetMillis": 23780
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "get",
+                    "BeginOffsetMillis": 23780,
+                    "EndOffsetMillis": 23940
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 23940,
+                    "EndOffsetMillis": 24110
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "taken",
+                    "BeginOffsetMillis": 24110,
+                    "EndOffsetMillis": 24460
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "care",
+                    "BeginOffsetMillis": 24460,
+                    "EndOffsetMillis": 24820
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "of",
+                    "BeginOffsetMillis": 24820,
+                    "EndOffsetMillis": 25260
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9805,
+                    "Content": "you",
+                    "BeginOffsetMillis": 26240,
+                    "EndOffsetMillis": 26560
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.989,
+                    "Content": "Uh",
+                    "BeginOffsetMillis": 26560,
+                    "EndOffsetMillis": 27000
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9915,
+                    "Content": "What's",
+                    "BeginOffsetMillis": 27000,
+                    "EndOffsetMillis": 27110
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "your",
+                    "BeginOffsetMillis": 27110,
+                    "EndOffsetMillis": 27210
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "name",
+                    "BeginOffsetMillis": 27210,
+                    "EndOffsetMillis": 27650
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "12c4c12e-a784-4a0a-9eb4-76758bb4af71",
+            "BeginOffsetMillis": 18740,
+            "EndOffsetMillis": 27650,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                83.56,
+                39.24,
+                85.47
+            ],
+            "Content": "Alright [PII]",
+            "Redaction": {
+                "RedactedTimestamps": [
+                    {
+                        "BeginOffsetMillis": 31040,
+                        "EndOffsetMillis": 31660
+                    }
+                ]
+            },
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.8427,
+                    "Content": "Alright",
+                    "BeginOffsetMillis": 29240,
+                    "EndOffsetMillis": 29660
+                },
+                {
+                    "Type": "pronunciation",
+                    "Content": "[PII]",
+                    "Redaction": [
+                        {
+                            "Confidence": 0.9822
+                        }
+                    ],
+                    "BeginOffsetMillis": 31040,
+                    "EndOffsetMillis": 31660
+                }
+            ],
+            "Id": "761ce02e-b09d-449b-ab6e-16b907325f56",
+            "BeginOffsetMillis": 29240,
+            "EndOffsetMillis": 31660,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                82.74,
+                83.73,
+                86.87,
+                86.66,
+                88.91,
+                88.61,
+                87.79,
+                85.45
+            ],
+            "Content": "[PII] hi [PII] I'm [PII] happy to be helping you today. Um What was the billing zip code for that card?",
+            "Redaction": {
+                "RedactedTimestamps": [
+                    {
+                        "BeginOffsetMillis": 32740,
+                        "EndOffsetMillis": 33300
+                    },
+                    {
+                        "BeginOffsetMillis": 33520,
+                        "EndOffsetMillis": 33860
+                    },
+                    {
+                        "BeginOffsetMillis": 34070,
+                        "EndOffsetMillis": 34490
+                    }
+                ]
+            },
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Content": "[PII]",
+                    "Redaction": [
+                        {
+                            "Confidence": 0.9999
+                        }
+                    ],
+                    "BeginOffsetMillis": 32740,
+                    "EndOffsetMillis": 33300
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "hi",
+                    "BeginOffsetMillis": 33310,
+                    "EndOffsetMillis": 33520
+                },
+                {
+                    "Type": "pronunciation",
+                    "Content": "[PII]",
+                    "Redaction": [
+                        {
+                            "Confidence": 0.9999
+                        }
+                    ],
+                    "BeginOffsetMillis": 33520,
+                    "EndOffsetMillis": 33860
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I'm",
+                    "BeginOffsetMillis": 33860,
+                    "EndOffsetMillis": 34070
+                },
+                {
+                    "Type": "pronunciation",
+                    "Content": "[PII]",
+                    "Redaction": [
+                        {
+                            "Confidence": 0.9999
+                        }
+                    ],
+                    "BeginOffsetMillis": 34070,
+                    "EndOffsetMillis": 34490
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "happy",
+                    "BeginOffsetMillis": 34490,
+                    "EndOffsetMillis": 34720
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "to",
+                    "BeginOffsetMillis": 34720,
+                    "EndOffsetMillis": 34800
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "be",
+                    "BeginOffsetMillis": 34800,
+                    "EndOffsetMillis": 34890
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "helping",
+                    "BeginOffsetMillis": 34890,
+                    "EndOffsetMillis": 35190
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 35190,
+                    "EndOffsetMillis": 35280
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "today",
+                    "BeginOffsetMillis": 35280,
+                    "EndOffsetMillis": 35760
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9932,
+                    "Content": "Um",
+                    "BeginOffsetMillis": 36140,
+                    "EndOffsetMillis": 36840
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "What",
+                    "BeginOffsetMillis": 36850,
+                    "EndOffsetMillis": 37290
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "was",
+                    "BeginOffsetMillis": 37300,
+                    "EndOffsetMillis": 38050
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "the",
+                    "BeginOffsetMillis": 38050,
+                    "EndOffsetMillis": 38220
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "billing",
+                    "BeginOffsetMillis": 38220,
+                    "EndOffsetMillis": 38500
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9903,
+                    "Content": "zip",
+                    "BeginOffsetMillis": 38500,
+                    "EndOffsetMillis": 38760
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9886,
+                    "Content": "code",
+                    "BeginOffsetMillis": 38760,
+                    "EndOffsetMillis": 39130
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "for",
+                    "BeginOffsetMillis": 39130,
+                    "EndOffsetMillis": 39210
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 39210,
+                    "EndOffsetMillis": 39390
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "card",
+                    "BeginOffsetMillis": 39390,
+                    "EndOffsetMillis": 39760
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "7b1d8fc6-e8f5-4c32-b64a-d754b1db8b69",
+            "BeginOffsetMillis": 32740,
+            "EndOffsetMillis": 39760,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                85.5,
+                85.03,
+                74.29
+            ],
+            "Content": "[PII].",
+            "Redaction": {
+                "RedactedTimestamps": [
+                    {
+                        "BeginOffsetMillis": 40740,
+                        "EndOffsetMillis": 42260
+                    }
+                ]
+            },
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Content": "[PII]",
+                    "Redaction": [
+                        {
+                            "Confidence": 0.9966
+                        }
+                    ],
+                    "BeginOffsetMillis": 40740,
+                    "EndOffsetMillis": 42260
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "dd986961-92e3-430d-a3de-1f1579c16d8d",
+            "BeginOffsetMillis": 40740,
+            "EndOffsetMillis": 42260,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                82.73,
+                88.87,
+                87.24,
+                84.73
+            ],
+            "Content": "Okay and do you happen to remember the last four digits of that card?",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Okay",
+                    "BeginOffsetMillis": 43140,
+                    "EndOffsetMillis": 43560
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "and",
+                    "BeginOffsetMillis": 43730,
+                    "EndOffsetMillis": 44270
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "do",
+                    "BeginOffsetMillis": 44270,
+                    "EndOffsetMillis": 44350
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 44350,
+                    "EndOffsetMillis": 44440
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "happen",
+                    "BeginOffsetMillis": 44440,
+                    "EndOffsetMillis": 44640
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "to",
+                    "BeginOffsetMillis": 44640,
+                    "EndOffsetMillis": 44700
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "remember",
+                    "BeginOffsetMillis": 44700,
+                    "EndOffsetMillis": 44890
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "the",
+                    "BeginOffsetMillis": 44890,
+                    "EndOffsetMillis": 45010
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "last",
+                    "BeginOffsetMillis": 45010,
+                    "EndOffsetMillis": 45370
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "four",
+                    "BeginOffsetMillis": 45370,
+                    "EndOffsetMillis": 45520
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "digits",
+                    "BeginOffsetMillis": 45520,
+                    "EndOffsetMillis": 45830
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "of",
+                    "BeginOffsetMillis": 45830,
+                    "EndOffsetMillis": 45910
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 45910,
+                    "EndOffsetMillis": 46060
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "card",
+                    "BeginOffsetMillis": 46060,
+                    "EndOffsetMillis": 46460
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "00b1155d-446d-4dcd-b47a-25efeef92188",
+            "BeginOffsetMillis": 43140,
+            "EndOffsetMillis": 46460,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                26.26,
+                89.24,
+                85.27,
+                81.54,
+                83.59,
+                90.27
+            ],
+            "Content": "Um Either [PII].",
+            "Redaction": {
+                "RedactedTimestamps": [
+                    {
+                        "BeginOffsetMillis": 50960,
+                        "EndOffsetMillis": 52760
+                    }
+                ]
+            },
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9426,
+                    "Content": "Um",
+                    "BeginOffsetMillis": 47940,
+                    "EndOffsetMillis": 48940
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Either",
+                    "BeginOffsetMillis": 50640,
+                    "EndOffsetMillis": 50950
+                },
+                {
+                    "Type": "pronunciation",
+                    "Content": "[PII]",
+                    "Redaction": [
+                        {
+                            "Confidence": 0.9892
+                        }
+                    ],
+                    "BeginOffsetMillis": 50960,
+                    "EndOffsetMillis": 52760
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "6ef7c5a7-19b3-453e-9189-b69c2ddeea51",
+            "BeginOffsetMillis": 47940,
+            "EndOffsetMillis": 52760,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                55.18
+            ],
+            "Content": "Mm",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.7336,
+                    "Content": "Mm",
+                    "BeginOffsetMillis": 51640,
+                    "EndOffsetMillis": 51850
+                }
+            ],
+            "Id": "d1eccac1-bc00-4212-8234-e2b53790575c",
+            "BeginOffsetMillis": 51640,
+            "EndOffsetMillis": 51850,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                85.07,
+                83.8,
+                84.92,
+                84.41,
+                91.07,
+                87.3,
+                82.53
+            ],
+            "Content": "Alright [PII]. For something like that. Is there other information I can give you instead?",
+            "Redaction": {
+                "RedactedTimestamps": [
+                    {
+                        "BeginOffsetMillis": 54240,
+                        "EndOffsetMillis": 55820
+                    }
+                ]
+            },
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.8573,
+                    "Content": "Alright",
+                    "BeginOffsetMillis": 53440,
+                    "EndOffsetMillis": 53860
+                },
+                {
+                    "Type": "pronunciation",
+                    "Content": "[PII]",
+                    "Redaction": [
+                        {
+                            "Confidence": 0.1935
+                        }
+                    ],
+                    "BeginOffsetMillis": 54240,
+                    "EndOffsetMillis": 55820
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "For",
+                    "BeginOffsetMillis": 55830,
+                    "EndOffsetMillis": 56600
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "something",
+                    "BeginOffsetMillis": 56610,
+                    "EndOffsetMillis": 57090
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "like",
+                    "BeginOffsetMillis": 57090,
+                    "EndOffsetMillis": 57250
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 57250,
+                    "EndOffsetMillis": 57630
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Is",
+                    "BeginOffsetMillis": 57640,
+                    "EndOffsetMillis": 57890
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9892,
+                    "Content": "there",
+                    "BeginOffsetMillis": 57890,
+                    "EndOffsetMillis": 58030
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "other",
+                    "BeginOffsetMillis": 58030,
+                    "EndOffsetMillis": 58250
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "information",
+                    "BeginOffsetMillis": 58250,
+                    "EndOffsetMillis": 58680
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I",
+                    "BeginOffsetMillis": 58680,
+                    "EndOffsetMillis": 58730
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "can",
+                    "BeginOffsetMillis": 58730,
+                    "EndOffsetMillis": 58860
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9693,
+                    "Content": "give",
+                    "BeginOffsetMillis": 58860,
+                    "EndOffsetMillis": 58990
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 58990,
+                    "EndOffsetMillis": 59070
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "instead",
+                    "BeginOffsetMillis": 59070,
+                    "EndOffsetMillis": 59550
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "08fcbbe6-9626-44ef-bd71-3d7a320ddd27",
+            "BeginOffsetMillis": 53440,
+            "EndOffsetMillis": 59550,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                81.49,
+                59.89,
+                88.91,
+                86.9,
+                null
+            ],
+            "Content": "Okay no problem. How about you? Give me your date of birth?",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9695,
+                    "Content": "Okay",
+                    "BeginOffsetMillis": 58040,
+                    "EndOffsetMillis": 58360
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "no",
+                    "BeginOffsetMillis": 60040,
+                    "EndOffsetMillis": 60200
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "problem",
+                    "BeginOffsetMillis": 60200,
+                    "EndOffsetMillis": 60410
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "How",
+                    "BeginOffsetMillis": 60410,
+                    "EndOffsetMillis": 60550
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9864,
+                    "Content": "about",
+                    "BeginOffsetMillis": 60550,
+                    "EndOffsetMillis": 60770
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 60770,
+                    "EndOffsetMillis": 60870
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9936,
+                    "Content": "Give",
+                    "BeginOffsetMillis": 60870,
+                    "EndOffsetMillis": 61020
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "me",
+                    "BeginOffsetMillis": 61020,
+                    "EndOffsetMillis": 61180
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "your",
+                    "BeginOffsetMillis": 61180,
+                    "EndOffsetMillis": 61460
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "date",
+                    "BeginOffsetMillis": 61460,
+                    "EndOffsetMillis": 61650
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "of",
+                    "BeginOffsetMillis": 61650,
+                    "EndOffsetMillis": 61720
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "birth",
+                    "BeginOffsetMillis": 61720,
+                    "EndOffsetMillis": 62050
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "4ec4865c-f991-4ec9-960d-fdcc9b1832f6",
+            "BeginOffsetMillis": 58040,
+            "EndOffsetMillis": 62050,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                86.05,
+                86.12,
+                78.37
+            ],
+            "Content": "Great, August 19, 2020.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Great",
+                    "BeginOffsetMillis": 63240,
+                    "EndOffsetMillis": 63650
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9793000000000001,
+                    "Content": "August",
+                    "BeginOffsetMillis": 63660,
+                    "EndOffsetMillis": 64840
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "19",
+                    "BeginOffsetMillis": 64840,
+                    "EndOffsetMillis": 65160
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "2020",
+                    "BeginOffsetMillis": 65160,
+                    "EndOffsetMillis": 65550
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "71c3be12-c86a-4f75-bb1e-1793cade7e07",
+            "BeginOffsetMillis": 63240,
+            "EndOffsetMillis": 65550,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                73.03,
+                67.21,
+                44.82,
+                85.17,
+                89.62,
+                86.56,
+                85.54
+            ],
+            "Content": "Okay perfect and quick security question, what city were you born in?",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.8585,
+                    "Content": "Okay",
+                    "BeginOffsetMillis": 64440,
+                    "EndOffsetMillis": 64650
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "perfect",
+                    "BeginOffsetMillis": 67140,
+                    "EndOffsetMillis": 67750
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "and",
+                    "BeginOffsetMillis": 67770,
+                    "EndOffsetMillis": 68130
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "quick",
+                    "BeginOffsetMillis": 68130,
+                    "EndOffsetMillis": 68350
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "security",
+                    "BeginOffsetMillis": 68350,
+                    "EndOffsetMillis": 68910
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "question",
+                    "BeginOffsetMillis": 68910,
+                    "EndOffsetMillis": 69570
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "what",
+                    "BeginOffsetMillis": 69570,
+                    "EndOffsetMillis": 69790
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "city",
+                    "BeginOffsetMillis": 69790,
+                    "EndOffsetMillis": 70040
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "were",
+                    "BeginOffsetMillis": 70040,
+                    "EndOffsetMillis": 70170
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 70170,
+                    "EndOffsetMillis": 70330
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "born",
+                    "BeginOffsetMillis": 70330,
+                    "EndOffsetMillis": 70580
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "in",
+                    "BeginOffsetMillis": 70580,
+                    "EndOffsetMillis": 70950
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "5c10cc22-56c0-442a-abdd-fd9a8f2dd695",
+            "BeginOffsetMillis": 64440,
+            "EndOffsetMillis": 70950,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                85.71,
+                85.76
+            ],
+            "Content": "Perfect",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.999,
+                    "Content": "Perfect",
+                    "BeginOffsetMillis": 71840,
+                    "EndOffsetMillis": 72260
+                }
+            ],
+            "Id": "3be00a2b-c972-4fc0-bcb5-17589aa53d34",
+            "BeginOffsetMillis": 71840,
+            "EndOffsetMillis": 72260,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                87.48,
+                86.05,
+                88.74,
+                84.68,
+                86.38,
+                89.49,
+                86.58,
+                87.68,
+                89.09,
+                88.9,
+                91.01,
+                89.89,
+                88.0,
+                81.27,
+                69.1
+            ],
+            "Content": "Okay there we go. I see that card in the system. Um Okay so you have two cards with us, Do you happen to know if it was the seaside Rewards Credit card or the day at the beach rewards Card?",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9948,
+                    "Content": "Okay",
+                    "BeginOffsetMillis": 73960,
+                    "EndOffsetMillis": 74600
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9867,
+                    "Content": "there",
+                    "BeginOffsetMillis": 74750,
+                    "EndOffsetMillis": 74970
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "we",
+                    "BeginOffsetMillis": 74970,
+                    "EndOffsetMillis": 75070
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "go",
+                    "BeginOffsetMillis": 75070,
+                    "EndOffsetMillis": 75270
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I",
+                    "BeginOffsetMillis": 75270,
+                    "EndOffsetMillis": 75900
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "see",
+                    "BeginOffsetMillis": 75910,
+                    "EndOffsetMillis": 76100
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 76100,
+                    "EndOffsetMillis": 76260
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "card",
+                    "BeginOffsetMillis": 76260,
+                    "EndOffsetMillis": 76470
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9932,
+                    "Content": "in",
+                    "BeginOffsetMillis": 76470,
+                    "EndOffsetMillis": 76540
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "the",
+                    "BeginOffsetMillis": 76540,
+                    "EndOffsetMillis": 76630
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "system",
+                    "BeginOffsetMillis": 76630,
+                    "EndOffsetMillis": 77250
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9872,
+                    "Content": "Um",
+                    "BeginOffsetMillis": 77450,
+                    "EndOffsetMillis": 77810
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.952,
+                    "Content": "Okay",
+                    "BeginOffsetMillis": 77810,
+                    "EndOffsetMillis": 78030
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "so",
+                    "BeginOffsetMillis": 78030,
+                    "EndOffsetMillis": 78160
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 78160,
+                    "EndOffsetMillis": 78270
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "have",
+                    "BeginOffsetMillis": 78270,
+                    "EndOffsetMillis": 78570
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "two",
+                    "BeginOffsetMillis": 78580,
+                    "EndOffsetMillis": 78780
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "cards",
+                    "BeginOffsetMillis": 78780,
+                    "EndOffsetMillis": 79100
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "with",
+                    "BeginOffsetMillis": 79100,
+                    "EndOffsetMillis": 79250
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "us",
+                    "BeginOffsetMillis": 79250,
+                    "EndOffsetMillis": 79810
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Do",
+                    "BeginOffsetMillis": 79840,
+                    "EndOffsetMillis": 79980
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 79980,
+                    "EndOffsetMillis": 80060
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "happen",
+                    "BeginOffsetMillis": 80060,
+                    "EndOffsetMillis": 80280
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "to",
+                    "BeginOffsetMillis": 80280,
+                    "EndOffsetMillis": 80390
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "know",
+                    "BeginOffsetMillis": 80390,
+                    "EndOffsetMillis": 80660
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "if",
+                    "BeginOffsetMillis": 80660,
+                    "EndOffsetMillis": 80900
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "it",
+                    "BeginOffsetMillis": 80900,
+                    "EndOffsetMillis": 81090
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "was",
+                    "BeginOffsetMillis": 81090,
+                    "EndOffsetMillis": 81570
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "the",
+                    "BeginOffsetMillis": 81580,
+                    "EndOffsetMillis": 82410
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9918,
+                    "Content": "seaside",
+                    "BeginOffsetMillis": 82420,
+                    "EndOffsetMillis": 83020
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9984,
+                    "Content": "Rewards",
+                    "BeginOffsetMillis": 83020,
+                    "EndOffsetMillis": 83540
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Credit",
+                    "BeginOffsetMillis": 83540,
+                    "EndOffsetMillis": 83810
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "card",
+                    "BeginOffsetMillis": 83810,
+                    "EndOffsetMillis": 84370
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "or",
+                    "BeginOffsetMillis": 84380,
+                    "EndOffsetMillis": 84860
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "the",
+                    "BeginOffsetMillis": 84860,
+                    "EndOffsetMillis": 85290
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9655,
+                    "Content": "day",
+                    "BeginOffsetMillis": 85290,
+                    "EndOffsetMillis": 85500
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9675,
+                    "Content": "at",
+                    "BeginOffsetMillis": 85500,
+                    "EndOffsetMillis": 85590
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "the",
+                    "BeginOffsetMillis": 85590,
+                    "EndOffsetMillis": 85700
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "beach",
+                    "BeginOffsetMillis": 85700,
+                    "EndOffsetMillis": 86270
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9774,
+                    "Content": "rewards",
+                    "BeginOffsetMillis": 86280,
+                    "EndOffsetMillis": 86730
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Card",
+                    "BeginOffsetMillis": 86730,
+                    "EndOffsetMillis": 87160
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "5e33af38-0108-43a1-a9aa-ac0cebede640",
+            "BeginOffsetMillis": 73960,
+            "EndOffsetMillis": 87160,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                85.86,
+                84.57,
+                86.08
+            ],
+            "Content": "day of the beaches.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9261,
+                    "Content": "day",
+                    "BeginOffsetMillis": 88940,
+                    "EndOffsetMillis": 89800
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9309,
+                    "Content": "of",
+                    "BeginOffsetMillis": 89800,
+                    "EndOffsetMillis": 89920
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "the",
+                    "BeginOffsetMillis": 89920,
+                    "EndOffsetMillis": 90010
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.7297,
+                    "Content": "beaches",
+                    "BeginOffsetMillis": 90010,
+                    "EndOffsetMillis": 90360
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "2df895f8-9744-4b5e-837f-7ece61883362",
+            "BeginOffsetMillis": 88940,
+            "EndOffsetMillis": 90360,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                71.49,
+                81.7
+            ],
+            "Content": "Yeah yes.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9562,
+                    "Content": "Yeah",
+                    "BeginOffsetMillis": 90040,
+                    "EndOffsetMillis": 90250
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "yes",
+                    "BeginOffsetMillis": 91540,
+                    "EndOffsetMillis": 91960
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "823ccfef-da0d-4b72-9911-2d3b013854f1",
+            "BeginOffsetMillis": 90040,
+            "EndOffsetMillis": 91960,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                86.08,
+                85.55,
+                83.21,
+                82.66
+            ],
+            "Content": "The red card, It was the Red one.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "The",
+                    "BeginOffsetMillis": 90360,
+                    "EndOffsetMillis": 90470
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9974,
+                    "Content": "red",
+                    "BeginOffsetMillis": 90470,
+                    "EndOffsetMillis": 90670
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "card",
+                    "BeginOffsetMillis": 90670,
+                    "EndOffsetMillis": 91160
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9979,
+                    "Content": "It",
+                    "BeginOffsetMillis": 92440,
+                    "EndOffsetMillis": 92530
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "was",
+                    "BeginOffsetMillis": 92530,
+                    "EndOffsetMillis": 92670
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "the",
+                    "BeginOffsetMillis": 92670,
+                    "EndOffsetMillis": 92790
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9994,
+                    "Content": "Red",
+                    "BeginOffsetMillis": 92790,
+                    "EndOffsetMillis": 93000
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "one",
+                    "BeginOffsetMillis": 93000,
+                    "EndOffsetMillis": 93360
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "f0b10f61-b63c-4516-b5bb-363b1562bc85",
+            "BeginOffsetMillis": 90360,
+            "EndOffsetMillis": 93360,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                80.44,
+                79.81,
+                89.49,
+                88.22,
+                84.99,
+                86.26,
+                87.61,
+                92.1,
+                89.78,
+                86.63
+            ],
+            "Content": "Okay so I'll go ahead and get that one canceled, just in case someone fish it out the fishman terminal waters. Uh Would you like me to get another one sent to you?",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9618,
+                    "Content": "Okay",
+                    "BeginOffsetMillis": 93740,
+                    "EndOffsetMillis": 94160
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.8813,
+                    "Content": "so",
+                    "BeginOffsetMillis": 94940,
+                    "EndOffsetMillis": 95050
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.8888,
+                    "Content": "I'll",
+                    "BeginOffsetMillis": 95050,
+                    "EndOffsetMillis": 95150
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "go",
+                    "BeginOffsetMillis": 95150,
+                    "EndOffsetMillis": 95340
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "ahead",
+                    "BeginOffsetMillis": 95340,
+                    "EndOffsetMillis": 95720
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "and",
+                    "BeginOffsetMillis": 95720,
+                    "EndOffsetMillis": 96140
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "get",
+                    "BeginOffsetMillis": 96140,
+                    "EndOffsetMillis": 96280
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 96280,
+                    "EndOffsetMillis": 96400
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "one",
+                    "BeginOffsetMillis": 96400,
+                    "EndOffsetMillis": 96580
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9615,
+                    "Content": "canceled",
+                    "BeginOffsetMillis": 96580,
+                    "EndOffsetMillis": 97090
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "just",
+                    "BeginOffsetMillis": 97090,
+                    "EndOffsetMillis": 97310
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "in",
+                    "BeginOffsetMillis": 97310,
+                    "EndOffsetMillis": 97420
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "case",
+                    "BeginOffsetMillis": 97420,
+                    "EndOffsetMillis": 97670
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9875,
+                    "Content": "someone",
+                    "BeginOffsetMillis": 97670,
+                    "EndOffsetMillis": 97970
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9606,
+                    "Content": "fish",
+                    "BeginOffsetMillis": 97970,
+                    "EndOffsetMillis": 98210
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9683,
+                    "Content": "it",
+                    "BeginOffsetMillis": 98210,
+                    "EndOffsetMillis": 98330
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9024,
+                    "Content": "out",
+                    "BeginOffsetMillis": 98330,
+                    "EndOffsetMillis": 98430
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.786,
+                    "Content": "the",
+                    "BeginOffsetMillis": 98430,
+                    "EndOffsetMillis": 98590
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.5759,
+                    "Content": "fishman",
+                    "BeginOffsetMillis": 98590,
+                    "EndOffsetMillis": 98970
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "terminal",
+                    "BeginOffsetMillis": 98970,
+                    "EndOffsetMillis": 99430
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.8977,
+                    "Content": "waters",
+                    "BeginOffsetMillis": 99430,
+                    "EndOffsetMillis": 100040
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9976,
+                    "Content": "Uh",
+                    "BeginOffsetMillis": 100230,
+                    "EndOffsetMillis": 100810
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Would",
+                    "BeginOffsetMillis": 100810,
+                    "EndOffsetMillis": 100960
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 100960,
+                    "EndOffsetMillis": 101030
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "like",
+                    "BeginOffsetMillis": 101030,
+                    "EndOffsetMillis": 101190
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "me",
+                    "BeginOffsetMillis": 101190,
+                    "EndOffsetMillis": 101260
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "to",
+                    "BeginOffsetMillis": 101260,
+                    "EndOffsetMillis": 101340
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "get",
+                    "BeginOffsetMillis": 101340,
+                    "EndOffsetMillis": 101460
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "another",
+                    "BeginOffsetMillis": 101460,
+                    "EndOffsetMillis": 101700
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "one",
+                    "BeginOffsetMillis": 101700,
+                    "EndOffsetMillis": 101860
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "sent",
+                    "BeginOffsetMillis": 101860,
+                    "EndOffsetMillis": 102090
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "to",
+                    "BeginOffsetMillis": 102090,
+                    "EndOffsetMillis": 102190
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9997,
+                    "Content": "you",
+                    "BeginOffsetMillis": 102190,
+                    "EndOffsetMillis": 102640
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "19c47c37-3131-4b85-b7b8-a6f146dfdc3c",
+            "BeginOffsetMillis": 93740,
+            "EndOffsetMillis": 102640,
+            "Sentiment": "NEGATIVE",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                89.42,
+                85.28,
+                74.16
+            ],
+            "Content": "That would be awesome. Thank you so much.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9788,
+                    "Content": "That",
+                    "BeginOffsetMillis": 103240,
+                    "EndOffsetMillis": 103470
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9788,
+                    "Content": "would",
+                    "BeginOffsetMillis": 103470,
+                    "EndOffsetMillis": 103570
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "be",
+                    "BeginOffsetMillis": 103570,
+                    "EndOffsetMillis": 103710
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "awesome",
+                    "BeginOffsetMillis": 103710,
+                    "EndOffsetMillis": 104210
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Thank",
+                    "BeginOffsetMillis": 104210,
+                    "EndOffsetMillis": 104450
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 104450,
+                    "EndOffsetMillis": 104560
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "so",
+                    "BeginOffsetMillis": 104560,
+                    "EndOffsetMillis": 104710
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "much",
+                    "BeginOffsetMillis": 104710,
+                    "EndOffsetMillis": 105060
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "cd6e3362-775e-4560-8e6c-6f7685f7c03a",
+            "BeginOffsetMillis": 103240,
+            "EndOffsetMillis": 105060,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                83.93,
+                89.51,
+                88.46,
+                84.94,
+                85.83,
+                87.78,
+                87.94,
+                88.9,
+                88.33,
+                86.15,
+                85.59,
+                87.6,
+                84.47
+            ],
+            "Content": "Great um so I have a couple of of addresses for you. I have like a home mailing address. I also have a mailbox at a fishing terminal and Alaska which one's gonna be the most convenient for you,",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Great",
+                    "BeginOffsetMillis": 105640,
+                    "EndOffsetMillis": 106150
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9931,
+                    "Content": "um",
+                    "BeginOffsetMillis": 106540,
+                    "EndOffsetMillis": 106870
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "so",
+                    "BeginOffsetMillis": 106870,
+                    "EndOffsetMillis": 106990
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I",
+                    "BeginOffsetMillis": 106990,
+                    "EndOffsetMillis": 107050
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "have",
+                    "BeginOffsetMillis": 107050,
+                    "EndOffsetMillis": 107210
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "a",
+                    "BeginOffsetMillis": 107210,
+                    "EndOffsetMillis": 107290
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "couple",
+                    "BeginOffsetMillis": 107290,
+                    "EndOffsetMillis": 107510
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "of",
+                    "BeginOffsetMillis": 107510,
+                    "EndOffsetMillis": 107820
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9989,
+                    "Content": "of",
+                    "BeginOffsetMillis": 107830,
+                    "EndOffsetMillis": 108120
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.998,
+                    "Content": "addresses",
+                    "BeginOffsetMillis": 108120,
+                    "EndOffsetMillis": 108890
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "for",
+                    "BeginOffsetMillis": 108890,
+                    "EndOffsetMillis": 109060
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9946,
+                    "Content": "you",
+                    "BeginOffsetMillis": 109060,
+                    "EndOffsetMillis": 109500
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I",
+                    "BeginOffsetMillis": 109500,
+                    "EndOffsetMillis": 109680
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "have",
+                    "BeginOffsetMillis": 109680,
+                    "EndOffsetMillis": 109880
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "like",
+                    "BeginOffsetMillis": 109880,
+                    "EndOffsetMillis": 110030
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "a",
+                    "BeginOffsetMillis": 110030,
+                    "EndOffsetMillis": 110110
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9897,
+                    "Content": "home",
+                    "BeginOffsetMillis": 110110,
+                    "EndOffsetMillis": 110470
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "mailing",
+                    "BeginOffsetMillis": 110470,
+                    "EndOffsetMillis": 110810
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "address",
+                    "BeginOffsetMillis": 110810,
+                    "EndOffsetMillis": 111400
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I",
+                    "BeginOffsetMillis": 111590,
+                    "EndOffsetMillis": 111850
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "also",
+                    "BeginOffsetMillis": 111860,
+                    "EndOffsetMillis": 112540
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "have",
+                    "BeginOffsetMillis": 112540,
+                    "EndOffsetMillis": 113050
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "a",
+                    "BeginOffsetMillis": 113060,
+                    "EndOffsetMillis": 113340
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "mailbox",
+                    "BeginOffsetMillis": 113340,
+                    "EndOffsetMillis": 114180
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "at",
+                    "BeginOffsetMillis": 114190,
+                    "EndOffsetMillis": 114390
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.998,
+                    "Content": "a",
+                    "BeginOffsetMillis": 114390,
+                    "EndOffsetMillis": 114470
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9838,
+                    "Content": "fishing",
+                    "BeginOffsetMillis": 114470,
+                    "EndOffsetMillis": 114790
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "terminal",
+                    "BeginOffsetMillis": 114790,
+                    "EndOffsetMillis": 115220
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.8398,
+                    "Content": "and",
+                    "BeginOffsetMillis": 115220,
+                    "EndOffsetMillis": 115360
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Alaska",
+                    "BeginOffsetMillis": 115360,
+                    "EndOffsetMillis": 116200
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "which",
+                    "BeginOffsetMillis": 116200,
+                    "EndOffsetMillis": 116370
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.5333,
+                    "Content": "one's",
+                    "BeginOffsetMillis": 116370,
+                    "EndOffsetMillis": 116500
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9481,
+                    "Content": "gonna",
+                    "BeginOffsetMillis": 116500,
+                    "EndOffsetMillis": 116650
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "be",
+                    "BeginOffsetMillis": 116650,
+                    "EndOffsetMillis": 116710
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9267,
+                    "Content": "the",
+                    "BeginOffsetMillis": 116710,
+                    "EndOffsetMillis": 116770
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "most",
+                    "BeginOffsetMillis": 116770,
+                    "EndOffsetMillis": 116950
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "convenient",
+                    "BeginOffsetMillis": 116950,
+                    "EndOffsetMillis": 117450
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "for",
+                    "BeginOffsetMillis": 117450,
+                    "EndOffsetMillis": 117550
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 117550,
+                    "EndOffsetMillis": 117850
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                }
+            ],
+            "Id": "e00f07f8-4a08-47d7-99b3-e9aee2ce1b50",
+            "BeginOffsetMillis": 105640,
+            "EndOffsetMillis": 117850,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                84.99,
+                87.15,
+                83.11,
+                83.43,
+                86.27,
+                87.35,
+                85.8,
+                87.6,
+                85.1
+            ],
+            "Content": "I'm actually in route right now to [PII]. Uh to dock up there. Can I give you a P. O. Box?",
+            "Redaction": {
+                "RedactedTimestamps": [
+                    {
+                        "BeginOffsetMillis": 120870,
+                        "EndOffsetMillis": 122050
+                    }
+                ]
+            },
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I'm",
+                    "BeginOffsetMillis": 118840,
+                    "EndOffsetMillis": 119030
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "actually",
+                    "BeginOffsetMillis": 119030,
+                    "EndOffsetMillis": 119530
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "in",
+                    "BeginOffsetMillis": 119540,
+                    "EndOffsetMillis": 119870
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.8059,
+                    "Content": "route",
+                    "BeginOffsetMillis": 119870,
+                    "EndOffsetMillis": 120150
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "right",
+                    "BeginOffsetMillis": 120150,
+                    "EndOffsetMillis": 120440
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "now",
+                    "BeginOffsetMillis": 120440,
+                    "EndOffsetMillis": 120750
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "to",
+                    "BeginOffsetMillis": 120750,
+                    "EndOffsetMillis": 120870
+                },
+                {
+                    "Type": "pronunciation",
+                    "Content": "[PII]",
+                    "Redaction": [
+                        {
+                            "Confidence": 0.9977
+                        }
+                    ],
+                    "BeginOffsetMillis": 120870,
+                    "EndOffsetMillis": 122050
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9705,
+                    "Content": "Uh",
+                    "BeginOffsetMillis": 122440,
+                    "EndOffsetMillis": 123010
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "to",
+                    "BeginOffsetMillis": 123020,
+                    "EndOffsetMillis": 123330
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.6285,
+                    "Content": "dock",
+                    "BeginOffsetMillis": 123330,
+                    "EndOffsetMillis": 123620
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "up",
+                    "BeginOffsetMillis": 123620,
+                    "EndOffsetMillis": 123790
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9587,
+                    "Content": "there",
+                    "BeginOffsetMillis": 123790,
+                    "EndOffsetMillis": 124050
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Can",
+                    "BeginOffsetMillis": 124050,
+                    "EndOffsetMillis": 124250
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I",
+                    "BeginOffsetMillis": 124250,
+                    "EndOffsetMillis": 124400
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "give",
+                    "BeginOffsetMillis": 124400,
+                    "EndOffsetMillis": 124660
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 124660,
+                    "EndOffsetMillis": 125010
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "a",
+                    "BeginOffsetMillis": 125020,
+                    "EndOffsetMillis": 125540
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "P",
+                    "BeginOffsetMillis": 125550,
+                    "EndOffsetMillis": 125760
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "O",
+                    "BeginOffsetMillis": 125760,
+                    "EndOffsetMillis": 125830
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Box",
+                    "BeginOffsetMillis": 125830,
+                    "EndOffsetMillis": 126250
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "6576e1ed-6543-408d-9b97-20b7d720237a",
+            "BeginOffsetMillis": 118840,
+            "EndOffsetMillis": 126250,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                88.06,
+                90.55,
+                86.64,
+                73.35
+            ],
+            "Content": "yep that will work just fine, go ahead. I'm ready when you are.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.7035,
+                    "Content": "yep",
+                    "BeginOffsetMillis": 126840,
+                    "EndOffsetMillis": 127140
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9902,
+                    "Content": "that",
+                    "BeginOffsetMillis": 127140,
+                    "EndOffsetMillis": 127260
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9853,
+                    "Content": "will",
+                    "BeginOffsetMillis": 127260,
+                    "EndOffsetMillis": 127380
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "work",
+                    "BeginOffsetMillis": 127380,
+                    "EndOffsetMillis": 127550
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "just",
+                    "BeginOffsetMillis": 127550,
+                    "EndOffsetMillis": 127750
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "fine",
+                    "BeginOffsetMillis": 127750,
+                    "EndOffsetMillis": 127990
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "go",
+                    "BeginOffsetMillis": 127990,
+                    "EndOffsetMillis": 128110
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "ahead",
+                    "BeginOffsetMillis": 128110,
+                    "EndOffsetMillis": 128389
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I'm",
+                    "BeginOffsetMillis": 128400,
+                    "EndOffsetMillis": 128539
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "ready",
+                    "BeginOffsetMillis": 128539,
+                    "EndOffsetMillis": 128710
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "when",
+                    "BeginOffsetMillis": 128710,
+                    "EndOffsetMillis": 128810
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 128810,
+                    "EndOffsetMillis": 128930
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "are",
+                    "BeginOffsetMillis": 128930,
+                    "EndOffsetMillis": 129150
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "0ef6c4f3-f3a3-4f11-a65b-9e5ad12ef55d",
+            "BeginOffsetMillis": 126840,
+            "EndOffsetMillis": 129150,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                80.8,
+                77.46,
+                89.63,
+                86.33,
+                88.43,
+                81.95
+            ],
+            "Content": "Great [PII],",
+            "Redaction": {
+                "RedactedTimestamps": [
+                    {
+                        "BeginOffsetMillis": 130840,
+                        "EndOffsetMillis": 134050
+                    }
+                ]
+            },
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Great",
+                    "BeginOffsetMillis": 129639,
+                    "EndOffsetMillis": 130060
+                },
+                {
+                    "Type": "pronunciation",
+                    "Content": "[PII]",
+                    "Redaction": [
+                        {
+                            "Confidence": 1.0
+                        }
+                    ],
+                    "BeginOffsetMillis": 130840,
+                    "EndOffsetMillis": 134050
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                }
+            ],
+            "Id": "2331aca7-7ccf-4052-bf93-79c8ba17985e",
+            "BeginOffsetMillis": 129639,
+            "EndOffsetMillis": 134050,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                80.44,
+                80.34,
+                80.54,
+                88.05,
+                89.17,
+                87.96,
+                88.66,
+                88.65,
+                88.33,
+                87.99,
+                86.23,
+                85.99,
+                85.1
+            ],
+            "ActionItemsDetected": [
+                {
+                    "CharacterOffsets": {
+                        "Begin": 23,
+                        "End": 64
+                    }
+                }
+            ],
+            "Content": "Okay I've got that and I will email you a confirmation is [PII]. Still the email address for you.",
+            "Redaction": {
+                "RedactedTimestamps": [
+                    {
+                        "BeginOffsetMillis": 141250,
+                        "EndOffsetMillis": 145110
+                    }
+                ]
+            },
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9618,
+                    "Content": "Okay",
+                    "BeginOffsetMillis": 134840,
+                    "EndOffsetMillis": 135260
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9977,
+                    "Content": "I've",
+                    "BeginOffsetMillis": 136540,
+                    "EndOffsetMillis": 137020
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "got",
+                    "BeginOffsetMillis": 137020,
+                    "EndOffsetMillis": 137210
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 137210,
+                    "EndOffsetMillis": 137500
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "and",
+                    "BeginOffsetMillis": 137500,
+                    "EndOffsetMillis": 137760
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I",
+                    "BeginOffsetMillis": 137760,
+                    "EndOffsetMillis": 137910
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "will",
+                    "BeginOffsetMillis": 137910,
+                    "EndOffsetMillis": 138080
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "email",
+                    "BeginOffsetMillis": 138080,
+                    "EndOffsetMillis": 138430
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 138430,
+                    "EndOffsetMillis": 138690
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "a",
+                    "BeginOffsetMillis": 138690,
+                    "EndOffsetMillis": 138860
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "confirmation",
+                    "BeginOffsetMillis": 138860,
+                    "EndOffsetMillis": 140010
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "is",
+                    "BeginOffsetMillis": 140220,
+                    "EndOffsetMillis": 141250
+                },
+                {
+                    "Type": "pronunciation",
+                    "Content": "[PII]",
+                    "Redaction": [
+                        {
+                            "Confidence": 0.9997
+                        }
+                    ],
+                    "BeginOffsetMillis": 141250,
+                    "EndOffsetMillis": 145110
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Still",
+                    "BeginOffsetMillis": 145110,
+                    "EndOffsetMillis": 145360
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "the",
+                    "BeginOffsetMillis": 145360,
+                    "EndOffsetMillis": 145480
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "email",
+                    "BeginOffsetMillis": 145480,
+                    "EndOffsetMillis": 145710
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "address",
+                    "BeginOffsetMillis": 145710,
+                    "EndOffsetMillis": 145980
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "for",
+                    "BeginOffsetMillis": 145980,
+                    "EndOffsetMillis": 146080
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 146080,
+                    "EndOffsetMillis": 146460
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "55e02bce-c970-4cea-aecd-a72f22aff431",
+            "BeginOffsetMillis": 134840,
+            "EndOffsetMillis": 146460,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                83.22
+            ],
+            "Content": "correct?",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "correct",
+                    "BeginOffsetMillis": 147240,
+                    "EndOffsetMillis": 147660
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "74d417ce-9a9b-40af-8c2e-daea1a6ccc7b",
+            "BeginOffsetMillis": 147240,
+            "EndOffsetMillis": 147660,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                86.95,
+                86.71,
+                88.84,
+                87.09,
+                88.53,
+                85.9,
+                85.52,
+                87.68,
+                84.85
+            ],
+            "Content": "Okay great so to review we've got that card canceled, we're sending it to the [PII] and I've emailed you a confirmation. Is that everything that you needed today?",
+            "Redaction": {
+                "RedactedTimestamps": [
+                    {
+                        "BeginOffsetMillis": 151330,
+                        "EndOffsetMillis": 153180
+                    }
+                ]
+            },
+            "OutcomesDetected": [
+                {
+                    "CharacterOffsets": {
+                        "Begin": 17,
+                        "End": 120
+                    }
+                }
+            ],
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9137,
+                    "Content": "Okay",
+                    "BeginOffsetMillis": 148140,
+                    "EndOffsetMillis": 148460
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9625,
+                    "Content": "great",
+                    "BeginOffsetMillis": 148460,
+                    "EndOffsetMillis": 148740
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "so",
+                    "BeginOffsetMillis": 148750,
+                    "EndOffsetMillis": 148970
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9968,
+                    "Content": "to",
+                    "BeginOffsetMillis": 148970,
+                    "EndOffsetMillis": 149060
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "review",
+                    "BeginOffsetMillis": 149060,
+                    "EndOffsetMillis": 149290
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9984,
+                    "Content": "we've",
+                    "BeginOffsetMillis": 149290,
+                    "EndOffsetMillis": 149430
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "got",
+                    "BeginOffsetMillis": 149430,
+                    "EndOffsetMillis": 149560
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 149560,
+                    "EndOffsetMillis": 149680
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "card",
+                    "BeginOffsetMillis": 149680,
+                    "EndOffsetMillis": 149910
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.8368,
+                    "Content": "canceled",
+                    "BeginOffsetMillis": 149910,
+                    "EndOffsetMillis": 150440
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9975,
+                    "Content": "we're",
+                    "BeginOffsetMillis": 150450,
+                    "EndOffsetMillis": 150680
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "sending",
+                    "BeginOffsetMillis": 150680,
+                    "EndOffsetMillis": 150960
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "it",
+                    "BeginOffsetMillis": 150960,
+                    "EndOffsetMillis": 151100
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "to",
+                    "BeginOffsetMillis": 151100,
+                    "EndOffsetMillis": 151210
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "the",
+                    "BeginOffsetMillis": 151210,
+                    "EndOffsetMillis": 151330
+                },
+                {
+                    "Type": "pronunciation",
+                    "Content": "[PII]",
+                    "Redaction": [
+                        {
+                            "Confidence": 0.9996
+                        }
+                    ],
+                    "BeginOffsetMillis": 151330,
+                    "EndOffsetMillis": 153180
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "and",
+                    "BeginOffsetMillis": 153210,
+                    "EndOffsetMillis": 153540
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9862,
+                    "Content": "I've",
+                    "BeginOffsetMillis": 153540,
+                    "EndOffsetMillis": 153750
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "emailed",
+                    "BeginOffsetMillis": 153760,
+                    "EndOffsetMillis": 154110
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 154110,
+                    "EndOffsetMillis": 154210
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "a",
+                    "BeginOffsetMillis": 154210,
+                    "EndOffsetMillis": 154300
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "confirmation",
+                    "BeginOffsetMillis": 154300,
+                    "EndOffsetMillis": 154880
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9978,
+                    "Content": "Is",
+                    "BeginOffsetMillis": 154880,
+                    "EndOffsetMillis": 154980
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 154980,
+                    "EndOffsetMillis": 155110
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "everything",
+                    "BeginOffsetMillis": 155110,
+                    "EndOffsetMillis": 155470
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 155470,
+                    "EndOffsetMillis": 155590
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 155590,
+                    "EndOffsetMillis": 155670
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "needed",
+                    "BeginOffsetMillis": 155670,
+                    "EndOffsetMillis": 155930
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "today",
+                    "BeginOffsetMillis": 155930,
+                    "EndOffsetMillis": 156360
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "d02d6c32-0ab2-4330-b5d0-14169e2c91cf",
+            "BeginOffsetMillis": 148140,
+            "EndOffsetMillis": 156360,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                87.19,
+                87.58,
+                83.37,
+                83.17,
+                83.71
+            ],
+            "Content": "That is also um my pronouns have changed since we spoke with last.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "That",
+                    "BeginOffsetMillis": 157340,
+                    "EndOffsetMillis": 157560
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "is",
+                    "BeginOffsetMillis": 157560,
+                    "EndOffsetMillis": 157780
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "also",
+                    "BeginOffsetMillis": 157790,
+                    "EndOffsetMillis": 158350
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9678,
+                    "Content": "um",
+                    "BeginOffsetMillis": 158350,
+                    "EndOffsetMillis": 158850
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "my",
+                    "BeginOffsetMillis": 158860,
+                    "EndOffsetMillis": 159180
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.994,
+                    "Content": "pronouns",
+                    "BeginOffsetMillis": 159180,
+                    "EndOffsetMillis": 159770
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9901,
+                    "Content": "have",
+                    "BeginOffsetMillis": 159770,
+                    "EndOffsetMillis": 159940
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "changed",
+                    "BeginOffsetMillis": 159940,
+                    "EndOffsetMillis": 160420
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "since",
+                    "BeginOffsetMillis": 160420,
+                    "EndOffsetMillis": 160700
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "we",
+                    "BeginOffsetMillis": 160700,
+                    "EndOffsetMillis": 160840
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "spoke",
+                    "BeginOffsetMillis": 160840,
+                    "EndOffsetMillis": 161120
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "with",
+                    "BeginOffsetMillis": 161120,
+                    "EndOffsetMillis": 161440
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9993,
+                    "Content": "last",
+                    "BeginOffsetMillis": 161450,
+                    "EndOffsetMillis": 161860
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "a35983bc-7409-4333-96d5-86d5875cc8ad",
+            "BeginOffsetMillis": 157340,
+            "EndOffsetMillis": 161860,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                60.15,
+                57.64,
+                30.01,
+                28.41,
+                26.98,
+                86.44,
+                86.59
+            ],
+            "Content": "Mhm. Thank you for letting me know.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.2816,
+                    "Content": "Mhm",
+                    "BeginOffsetMillis": 157640,
+                    "EndOffsetMillis": 157850
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Thank",
+                    "BeginOffsetMillis": 162240,
+                    "EndOffsetMillis": 162670
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 162670,
+                    "EndOffsetMillis": 162730
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "for",
+                    "BeginOffsetMillis": 162730,
+                    "EndOffsetMillis": 162810
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "letting",
+                    "BeginOffsetMillis": 162810,
+                    "EndOffsetMillis": 162960
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "me",
+                    "BeginOffsetMillis": 162960,
+                    "EndOffsetMillis": 163020
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9993,
+                    "Content": "know",
+                    "BeginOffsetMillis": 163020,
+                    "EndOffsetMillis": 163260
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "f5125aca-4108-45ad-b7ad-7a7478b10ef3",
+            "BeginOffsetMillis": 157640,
+            "EndOffsetMillis": 163260,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                90.76,
+                90.1,
+                81.35,
+                81.69,
+                6.43,
+                33.72,
+                25.74,
+                84.8,
+                46.9
+            ],
+            "Content": "Is there a way that that can just be updated in your system as well today then please?",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Is",
+                    "BeginOffsetMillis": 162540,
+                    "EndOffsetMillis": 162670
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "there",
+                    "BeginOffsetMillis": 162670,
+                    "EndOffsetMillis": 162850
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "a",
+                    "BeginOffsetMillis": 162850,
+                    "EndOffsetMillis": 162950
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "way",
+                    "BeginOffsetMillis": 162950,
+                    "EndOffsetMillis": 163310
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 163310,
+                    "EndOffsetMillis": 163580
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 163590,
+                    "EndOffsetMillis": 163860
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "can",
+                    "BeginOffsetMillis": 163860,
+                    "EndOffsetMillis": 163990
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "just",
+                    "BeginOffsetMillis": 163990,
+                    "EndOffsetMillis": 164180
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "be",
+                    "BeginOffsetMillis": 164180,
+                    "EndOffsetMillis": 164320
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "updated",
+                    "BeginOffsetMillis": 164320,
+                    "EndOffsetMillis": 164770
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.996,
+                    "Content": "in",
+                    "BeginOffsetMillis": 164770,
+                    "EndOffsetMillis": 164840
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "your",
+                    "BeginOffsetMillis": 164840,
+                    "EndOffsetMillis": 164980
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "system",
+                    "BeginOffsetMillis": 164980,
+                    "EndOffsetMillis": 165330
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "as",
+                    "BeginOffsetMillis": 165330,
+                    "EndOffsetMillis": 165450
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "well",
+                    "BeginOffsetMillis": 165450,
+                    "EndOffsetMillis": 165860
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9188,
+                    "Content": "today",
+                    "BeginOffsetMillis": 169240,
+                    "EndOffsetMillis": 169490
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.976,
+                    "Content": "then",
+                    "BeginOffsetMillis": 169490,
+                    "EndOffsetMillis": 169700
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "please",
+                    "BeginOffsetMillis": 169700,
+                    "EndOffsetMillis": 170050
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "3e61a277-be66-4a39-a1fd-ed7cf3ac6558",
+            "BeginOffsetMillis": 162540,
+            "EndOffsetMillis": 170050,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                85.96,
+                88.41,
+                83.42,
+                45.89,
+                81.97,
+                86.14,
+                88.22,
+                87.33,
+                88.01,
+                81.13
+            ],
+            "Content": "Yes, I'll do that right now. What would you prefer? Okay, that is in our system. Thank you for letting us know. Is there anything else I can help you with today?",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Yes",
+                    "BeginOffsetMillis": 166440,
+                    "EndOffsetMillis": 166770
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9698,
+                    "Content": "I'll",
+                    "BeginOffsetMillis": 166770,
+                    "EndOffsetMillis": 166970
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "do",
+                    "BeginOffsetMillis": 166970,
+                    "EndOffsetMillis": 167090
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 167090,
+                    "EndOffsetMillis": 167280
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "right",
+                    "BeginOffsetMillis": 167280,
+                    "EndOffsetMillis": 167510
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "now",
+                    "BeginOffsetMillis": 167510,
+                    "EndOffsetMillis": 167810
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "What",
+                    "BeginOffsetMillis": 167810,
+                    "EndOffsetMillis": 167960
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "would",
+                    "BeginOffsetMillis": 167960,
+                    "EndOffsetMillis": 168100
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 168100,
+                    "EndOffsetMillis": 168230
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "prefer",
+                    "BeginOffsetMillis": 168230,
+                    "EndOffsetMillis": 168660
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9631,
+                    "Content": "Okay",
+                    "BeginOffsetMillis": 171090,
+                    "EndOffsetMillis": 171540
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that",
+                    "BeginOffsetMillis": 171550,
+                    "EndOffsetMillis": 171860
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "is",
+                    "BeginOffsetMillis": 171870,
+                    "EndOffsetMillis": 172150
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "in",
+                    "BeginOffsetMillis": 172160,
+                    "EndOffsetMillis": 172320
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "our",
+                    "BeginOffsetMillis": 172320,
+                    "EndOffsetMillis": 172440
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "system",
+                    "BeginOffsetMillis": 172440,
+                    "EndOffsetMillis": 172810
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Thank",
+                    "BeginOffsetMillis": 172810,
+                    "EndOffsetMillis": 173020
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 173020,
+                    "EndOffsetMillis": 173120
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "for",
+                    "BeginOffsetMillis": 173120,
+                    "EndOffsetMillis": 173220
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "letting",
+                    "BeginOffsetMillis": 173220,
+                    "EndOffsetMillis": 173460
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "us",
+                    "BeginOffsetMillis": 173460,
+                    "EndOffsetMillis": 173620
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "know",
+                    "BeginOffsetMillis": 173620,
+                    "EndOffsetMillis": 173990
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Is",
+                    "BeginOffsetMillis": 174000,
+                    "EndOffsetMillis": 174210
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "there",
+                    "BeginOffsetMillis": 174210,
+                    "EndOffsetMillis": 174300
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "anything",
+                    "BeginOffsetMillis": 174300,
+                    "EndOffsetMillis": 174500
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "else",
+                    "BeginOffsetMillis": 174500,
+                    "EndOffsetMillis": 174640
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "I",
+                    "BeginOffsetMillis": 174640,
+                    "EndOffsetMillis": 174680
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "can",
+                    "BeginOffsetMillis": 174680,
+                    "EndOffsetMillis": 174780
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "help",
+                    "BeginOffsetMillis": 174780,
+                    "EndOffsetMillis": 174950
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 174950,
+                    "EndOffsetMillis": 175020
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "with",
+                    "BeginOffsetMillis": 175020,
+                    "EndOffsetMillis": 175150
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "today",
+                    "BeginOffsetMillis": 175150,
+                    "EndOffsetMillis": 175460
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "?"
+                }
+            ],
+            "Id": "1c8f0e3c-d000-4f2a-b51e-141530d25b54",
+            "BeginOffsetMillis": 166440,
+            "EndOffsetMillis": 175460,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                88.18,
+                85.31
+            ],
+            "Content": "No, that's it. Thank you.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "No",
+                    "BeginOffsetMillis": 176140,
+                    "EndOffsetMillis": 176390
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": ","
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "that's",
+                    "BeginOffsetMillis": 176390,
+                    "EndOffsetMillis": 176630
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "it",
+                    "BeginOffsetMillis": 176630,
+                    "EndOffsetMillis": 176760
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Thank",
+                    "BeginOffsetMillis": 176760,
+                    "EndOffsetMillis": 177050
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 177050,
+                    "EndOffsetMillis": 177360
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "fbcb84f8-a8e2-4973-b057-82307dc6ea41",
+            "BeginOffsetMillis": 176140,
+            "EndOffsetMillis": 177360,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                84.13,
+                88.97,
+                87.24,
+                83.64
+            ],
+            "Content": "Wonderful. Have smooth sailing down to [PII].",
+            "Redaction": {
+                "RedactedTimestamps": [
+                    {
+                        "BeginOffsetMillis": 179210,
+                        "EndOffsetMillis": 180080
+                    }
+                ]
+            },
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Wonderful",
+                    "BeginOffsetMillis": 177740,
+                    "EndOffsetMillis": 178210
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9981,
+                    "Content": "Have",
+                    "BeginOffsetMillis": 178210,
+                    "EndOffsetMillis": 178380
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "smooth",
+                    "BeginOffsetMillis": 178380,
+                    "EndOffsetMillis": 178720
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "sailing",
+                    "BeginOffsetMillis": 178720,
+                    "EndOffsetMillis": 179030
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "down",
+                    "BeginOffsetMillis": 179030,
+                    "EndOffsetMillis": 179180
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "to",
+                    "BeginOffsetMillis": 179180,
+                    "EndOffsetMillis": 179210
+                },
+                {
+                    "Type": "pronunciation",
+                    "Content": "[PII]",
+                    "Redaction": [
+                        {
+                            "Confidence": 0.9428
+                        }
+                    ],
+                    "BeginOffsetMillis": 179210,
+                    "EndOffsetMillis": 180080
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "2b54e59a-5893-43ee-b868-a74838d8952d",
+            "BeginOffsetMillis": 177740,
+            "EndOffsetMillis": 180080,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "LoudnessScores": [
+                83.38
+            ],
+            "Content": "Thank you. Bye.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "Thank",
+                    "BeginOffsetMillis": 181040,
+                    "EndOffsetMillis": 181320
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 1.0,
+                    "Content": "you",
+                    "BeginOffsetMillis": 181320,
+                    "EndOffsetMillis": 181530
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                },
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9985,
+                    "Content": "Bye",
+                    "BeginOffsetMillis": 181540,
+                    "EndOffsetMillis": 181960
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "b3c2b4bf-38a6-44b5-93d5-50316bec514c",
+            "BeginOffsetMillis": 181040,
+            "EndOffsetMillis": 181960,
+            "Sentiment": "POSITIVE",
+            "ParticipantRole": "CUSTOMER"
+        },
+        {
+            "LoudnessScores": [
+                59.91,
+                75.69
+            ],
+            "Content": "Bye.",
+            "Items": [
+                {
+                    "Type": "pronunciation",
+                    "Confidence": 0.9881,
+                    "Content": "Bye",
+                    "BeginOffsetMillis": 181940,
+                    "EndOffsetMillis": 182890
+                },
+                {
+                    "Type": "punctuation",
+                    "Confidence": 0.0,
+                    "Content": "."
+                }
+            ],
+            "Id": "432f1144-6ca7-4fbc-a2e0-8535e92b9fb6",
+            "BeginOffsetMillis": 181940,
+            "EndOffsetMillis": 182890,
+            "Sentiment": "NEUTRAL",
+            "ParticipantRole": "AGENT"
+        }
+    ],
+    "AccountId": "145109938727",
+    "Categories": {
+        "MatchedDetails": {
+            "No_Closing_Remark": {
+                "PointsOfInterest": []
+            }
+        },
+        "MatchedCategories": [
+            "No_Closing_Remark"
+        ]
+    },
+    "Channel": "VOICE",
+    "JobName": "example-call.wav",
+    "Participants": [
+        {
+            "ParticipantRole": "AGENT"
+        },
+        {
+            "ParticipantRole": "CUSTOMER"
+        }
+    ],
+    "ConversationCharacteristics": {
+        "NonTalkTime": {
+            "Instances": [],
+            "TotalTimeMillis": 0
+        },
+        "Interruptions": {
+            "TotalCount": 2,
+            "TotalTimeMillis": 4340,
+            "InterruptionsByInterrupter": {
+                "AGENT": [
+                    {
+                        "BeginOffsetMillis": 18740,
+                        "DurationMillis": 2120,
+                        "EndOffsetMillis": 20860
+                    },
+                    {
+                        "BeginOffsetMillis": 166440,
+                        "DurationMillis": 2220,
+                        "EndOffsetMillis": 168660
+                    }
+                ]
+            }
+        },
+        "TotalConversationDurationMillis": 182890,
+        "Sentiment": {
+            "OverallSentiment": {
+                "AGENT": 2.4,
+                "CUSTOMER": 1.8
+            },
+            "SentimentByPeriod": {
+                "QUARTER": {
+                    "AGENT": [
+                        {
+                            "Score": 2.9,
+                            "BeginOffsetMillis": 0,
+                            "EndOffsetMillis": 45722
+                        },
+                        {
+                            "Score": 1.0,
+                            "BeginOffsetMillis": 45722,
+                            "EndOffsetMillis": 91445
+                        },
+                        {
+                            "Score": 2.0,
+                            "BeginOffsetMillis": 91445,
+                            "EndOffsetMillis": 137167
+                        },
+                        {
+                            "Score": 3.8,
+                            "BeginOffsetMillis": 137167,
+                            "EndOffsetMillis": 182890
+                        }
+                    ],
+                    "CUSTOMER": [
+                        {
+                            "Score": -1.3,
+                            "BeginOffsetMillis": 0,
+                            "EndOffsetMillis": 45490
+                        },
+                        {
+                            "Score": 2.1,
+                            "BeginOffsetMillis": 45490,
+                            "EndOffsetMillis": 90980
+                        },
+                        {
+                            "Score": 3.3,
+                            "BeginOffsetMillis": 90980,
+                            "EndOffsetMillis": 136470
+                        },
+                        {
+                            "Score": 2.5,
+                            "BeginOffsetMillis": 136470,
+                            "EndOffsetMillis": 181960
+                        }
+                    ]
+                }
+            }
+        },
+        "TalkSpeed": {
+            "DetailsByParticipant": {
+                "AGENT": {
+                    "AverageWordsPerMinute": 193
+                },
+                "CUSTOMER": {
+                    "AverageWordsPerMinute": 135
+                }
+            }
+        },
+        "TalkTime": {
+            "DetailsByParticipant": {
+                "AGENT": {
+                    "TotalTimeMillis": 104349
+                },
+                "CUSTOMER": {
+                    "TotalTimeMillis": 63790
+                }
+            },
+            "TotalTimeMillis": 168139
+        }
+    },
+    "ContentMetadata": {
+        "Output": "Redacted",
+        "RedactionTypes": [
+            "PII"
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+  "gatewayName": "hello-lambda-mcp-gateway",
+  "description": "Gateway for Lambda and MCP server targets",
+  "targets": [
+    {
+      "targetType": "lambda",
+      "targetName": "hello-lambda-target",
+      "configuration": {
+        "lambda": {
+          "lambdaArn": "arn:aws:lambda:us-east-1:662403250828:function:hello_lambda_tool",
+          "toolSchema": {
+            "inlinePayload": [
+              {
+                "name": "DefaultTool",
+                "description": "Default tool that returns a greeting message from Lambda",
+                "inputSchema": {
+                  "json": {
+                    "type": "object",
+                    "properties": {}
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    },
+    {
+      "targetType": "mcp",
+      "targetName": "memory-mcp-target",
+      "configuration": {
+        "mcp": {
+          "mcpServerArn": "arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agentcore_memory_mcp_server-R4jmV6ERZD"
+        }
+      }
+    }
+  ]
+}

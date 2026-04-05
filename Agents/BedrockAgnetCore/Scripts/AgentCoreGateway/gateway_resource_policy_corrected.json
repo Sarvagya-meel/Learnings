@@ -1,0 +1,32 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowBedrockAgentCoreService",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "bedrock-agentcore.amazonaws.com"
+      },
+      "Action": [
+        "bedrock-agentcore:InvokeGateway"
+      ],
+      "Resource": "arn:aws:bedrock-agentcore:us-east-1:662403250828:gateway/*",
+      "Condition": {
+        "StringEquals": {
+          "aws:SourceAccount": "662403250828"
+        }
+      }
+    },
+    {
+      "Sid": "AllowAccountAccess",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::662403250828:root"
+      },
+      "Action": [
+        "bedrock-agentcore:InvokeGateway"
+      ],
+      "Resource": "arn:aws:bedrock-agentcore:us-east-1:662403250828:gateway/*"
+    }
+  ]
+}

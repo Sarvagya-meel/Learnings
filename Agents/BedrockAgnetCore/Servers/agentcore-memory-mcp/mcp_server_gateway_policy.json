@@ -1,0 +1,39 @@
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Sid": "AllowGatewayAccess",
+      "Effect": "Allow",
+      "Principal": {
+        "Service": "bedrock-agentcore.amazonaws.com"
+      },
+      "Action": [
+        "bedrock-agentcore:GetAgentCard",
+        "bedrock-agentcore:InvokeAgentRuntime",
+        "bedrock-agentcore:InvokeAgentRuntimeForUser",
+        "bedrock-agentcore:InvokeAgentRuntimeWithWebSocketStream",
+        "bedrock-agentcore:InvokeAgentRuntimeWithWebSocketStreamForUser",
+        "bedrock-agentcore:StopRuntimeSession",
+        "bedrock-agentcore:InvokeRuntime"
+      ],
+      "Resource": "arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agentcore_memory_mcp_server-R4jmV6ERZD",
+      "Condition": {
+        "StringEquals": {
+          "aws:SourceAccount": "662403250828"
+        }
+      }
+    },
+    {
+      "Sid": "AllowUserAccess",
+      "Effect": "Allow",
+      "Principal": {
+        "AWS": "arn:aws:iam::662403250828:root"
+      },
+      "Action": [
+        "bedrock-agentcore:InvokeAgentRuntime",
+        "bedrock-agentcore:InvokeRuntime"
+      ],
+      "Resource": "arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agentcore_memory_mcp_server-R4jmV6ERZD"
+    }
+  ]
+}
