@@ -1,9 +1,12 @@
 ```bash
 cd Servers/agentcore-memory-mcp
 source .venv/bin/activate
+python3 memory_mcp_agentCore_client.py
 agentcore configure -e memory_mcp_server.py --protocol MCP
 agentcore deploy 
 agentcore launch
+
+
 ```
 
 ```bash
@@ -12,6 +15,12 @@ source .venv/bin/activate
 agentcore configure -e memory_mcp_server.py --protocol MCP
 agentcore deploy 
 agentcore launch
+
+agentcore invoke '{
+  "prompt": "What is roaming activation?",
+  "actor_id": "user123",
+  "session_id": "session456"
+}'
 ```
 
 ```bash
@@ -71,7 +80,7 @@ The server uses the `../config/memory-config.json` file to configure the AgentCo
 The memory ID there should point to an existing AgentCore memory instance. You can create one using the shared scripts in the parent directory:
 
 ```bash
-cd ../scripts
+cd ../Scripts
 uv sync
 uv run create-memory
 uv run add-sample-memory

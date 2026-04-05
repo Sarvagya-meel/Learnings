@@ -1,11 +1,57 @@
-syn# 🤖 Amazon Bedrock AgentCore
+# AgentCore: Runtime+Memory agentcore-memory-mcp
+```bash
+cd Servers/agentcore-memory-mcp
+source .venv/bin/activate
+agentcore configure -e memory_mcp_server.py --protocol MCP
+agentcore deploy 
+agentcore launch
+```
+# AgentCore: Runtime agentcore-qna-specialist-agent
+```bash
+cd Agents/agentcore-qna-specialist-agent
+source .venv/bin/activate
+agentcore configure -e memory_mcp_server.py --protocol MCP
+agentcore deploy 
+agentcore launch
+agentcore invoke '{
+  "prompt": "What is roaming activation?",
+  "actor_id": "user123",
+  "session_id": "session456"
+}'
+```
+# AgentCore: Runtime agentcore-supervisor-agent
+```bash
+cd Agents/agentcore-supervisor-agent/
+source .venv/bin/activate
+agentcore configure -e memory_mcp_server.py --protocol MCP
+agentcore deploy 
+agentcore launch
+```
 
-This crash course is a hands-on introduction to **Amazon Bedrock AgentCore**, a fully managed service for building and deploying intelligent agents. This repository contains progressive examples demonstrating how to build AI agents that leverage language models, RAG (Retrieval-Augmented Generation), and memory management.
+```bash
+python3.13 -m venv .venv
 
-## 📚 Course Structure
+uv sync 
+pip install . 
+```
+```bash
+deactivate
 
-This course includes three example implementations of increasing complexity:
+rm -rf .venv
 
+
+```
+
+```bash
+npx @modelcontextprotocol/inspector
+
+╭─────────────────────────────────────────────────────────────────── Deployment Success ───────────────────────────────────────────────────────────────────╮
+│ Agent Details:                                                                                                                                           │
+│ Agent Name: agentcore_qna_agent                                                                                                                          │
+│ Agent ARN: arn:aws:bedrock-agentcore:us-east-1:662403250828:runtime/agentcore_qna_agent-LuJi165oYZ                                                       │
+│ ECR URI: 662403250828.dkr.ecr.us-east-1.amazonaws.com/bedrock-agentcore-agentcore_qna_agent:20260217-185141-116                                          │
+│ CodeBuild ID: bedrock-agentcore-agentcore_qna_agent-builder:4df5b316-f838-4796-b9aa-0a6939460a22  
+```
 1. **`00_langgraph_agent.py`** - Basic LangGraph agent with FAQ search capabilities using LangChain
 2. **`01_agentcore_runtime.py`** - AgentCore runtime integration with tool-based FAQ search and query reformulation
 3. **`02_agentcore_memory.py`** - Advanced agent with memory management for maintaining conversation history and user preferences

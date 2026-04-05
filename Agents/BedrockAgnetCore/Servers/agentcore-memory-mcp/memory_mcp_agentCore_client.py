@@ -183,14 +183,14 @@ if __name__ == "__main__":
     # Path: /runtimes/{EncodedArn}/invocations?qualifier=DEFAULT (for MCP)
     encoded_arn = quote(RUNTIME_ARN, safe='')
     invoke_url = f"https://bedrock-agentcore.{REGION}.amazonaws.com/runtimes/{encoded_arn}/invocations?qualifier=DEFAULT"
-
+    print(f"{invoke_url=}")
     print("\nListing tools...")
     tools = list_tools(invoke_url)
 
     print("\nCalling tool: server_info...")
     result = call_tool(invoke_url, "server_info", {"session_id": session_id})
 
-    print("\nCalling tool: retrieve_memory...")
+    print("\nCalling tool: 1 retrieve_memory...")
     result = call_tool(invoke_url, "retrieve_memory", {
         "query": "what are my food preferences",
         "max_results": 5,
@@ -198,10 +198,29 @@ if __name__ == "__main__":
         "session_id": session_id,
     })
 
-    # print("\nCalling tool: store_interaction...")
-    # result = call_tool(invoke_url,
-    #                    "store_interaction",
-    #                    {"user_msg": "Is sam a good dancer?",
-    #                     "assistant_msg":"sam dances with heart...",
-    #                     "actor_id":actor_id,
-    #                     "session_id":session_id})
+
+
+    print("\nCalling tool: 1 store_interaction...")
+    result = call_tool(invoke_url,
+                       "store_interaction",
+                       {"user_msg": "Is sam a good dancer?",
+                        "assistant_msg":"sam dances with heart...",
+                        "actor_id":actor_id,
+                        "session_id":session_id})
+
+    
+    print("\nCalling tool: 2 store_interaction...")
+    result = call_tool(invoke_url,
+                       "store_interaction",
+                       {"user_msg": "where does sam dances?",
+                        "assistant_msg":"sam dances at hotel california.",
+                        "actor_id":actor_id,
+                        "session_id":session_id})
+
+    print("\nCalling tool: 2 retrieve_memory...")
+    result = call_tool(invoke_url, "retrieve_memory", {
+        "query": "what are my food preferences",
+        "max_results": 5,
+        "actor_id": actor_id,
+        "session_id": session_id,
+    })

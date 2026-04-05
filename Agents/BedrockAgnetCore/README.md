@@ -5,14 +5,20 @@ source .venv/bin/activate
 agentcore configure -e memory_mcp_server.py --protocol MCP
 agentcore deploy 
 agentcore launch
+python3 memory_mcp_agentCore_client.py
 ```
-# AgentCore: Runtime agentcore-qna-specialist-agent
 ```bash
 cd Agents/agentcore-qna-specialist-agent
 source .venv/bin/activate
 agentcore configure -e memory_mcp_server.py --protocol MCP
 agentcore deploy 
 agentcore launch
+agentcore invoke '{
+  "prompt": "What is roaming activation?",
+  "actor_id": "user123",
+  "session_id": "session456"
+}'
+```
 ```
 # AgentCore: Runtime agentcore-supervisor-agent
 ```bash
@@ -26,6 +32,14 @@ agentcore launch
 ```bash
 python3 -m venv .venv
 pip install bedrock-agentcore-starter-toolkit
+# For QNA Agent
+source Agents/agentcore-qna-specialist-agent/.venv/bin/activate
+
+# For Supervisor Agent
+source Agents/agentcore-supervisor-agent/.venv/bin/activate
+
+# For MCP Server
+source Servers/agentcore-memory-mcp/.venv/bin/activate
 ```
 
 ```bash
@@ -72,7 +86,7 @@ The server uses the `../config/memory-config.json` file to configure the AgentCo
 The memory ID there should point to an existing AgentCore memory instance. You can create one using the shared scripts in the parent directory:
 
 ```bash
-cd ../scripts
+cd ../Scripts
 uv sync
 uv run create-memory
 uv run add-sample-memory
